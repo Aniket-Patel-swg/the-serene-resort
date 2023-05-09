@@ -1,13 +1,15 @@
 import React from 'react';
 import './App.css';
 import Navbar from './Components/Navbar';
+import HomePage from './Pages/HomePage';
 
 function App() {
   return (
     <>
     {/* This is just demo texts and styles, purpose is to finalize folder structure and components. */}
-     <h1>The Serene Resort</h1>
      <Navbar />
+     {/* Home page will contain all the components */}
+     <HomePage />
     </>
   )
 }
