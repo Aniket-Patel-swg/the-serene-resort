@@ -1,4 +1,38 @@
 .refrences-container{
     padding: 3em;
-    background-color: rgb(240, 255, 255);
+    padding: 5.5rem 0px 5.5rem 0px;
+}
+.refrence-div{
+    display: flex;
+    margin-left: 3.5em;
+}
+.text-section{
+    width: 25%;
+    margin: auto;
+}
+.text-section p{
+    font-size: 1.7rem;
+    font-weight: 900;
+}
+.images-section{
+    display: flex;
+    margin: auto;
+    column-gap: 2em;
+    width: 55%;
+}
+.images-section img{
+    max-width: 10.5%;
+    /* height: %; */
+    object-fit: contain;
+    filter: grayscale(100%);
+}
+#image2{
+    max-width: 23.5%;
+    /* height: %; */
+    object-fit: contain;
+}
+#image1{
+    max-width: 10.5%;
+    /* height: %; */
+    object-fit: contain;
 }

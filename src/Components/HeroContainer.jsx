@@ -17,9 +17,11 @@ const HeroContainer = () => {
               Beach City.
             </p>
             <section className="button-section">
+              <a href="/">
               <button>
                 <p>Get More Info</p>
               </button>
+              </a>
             </section>
           </div>
           <div className="main-image">
