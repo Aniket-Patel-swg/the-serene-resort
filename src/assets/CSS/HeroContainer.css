@@ -1,4 +1,44 @@
-.hero-container{
-    padding: 3em;
-    background-color: aliceblue;
+.Main-section{
+    display: flex;
+    flex-direction: row;
+}
+.tagline{
+    font-size: 4em;
+    font-weight: 900;
+}
+.basic-info-text{
+    /* max-width: 5em; */
+    margin-top: 1.2em;
+    font-size: 1.3em;
+    font-weight: 400;
+    max-width: 35vw;
+    color: grey;
+}
+.main-texts{
+    margin: 6.5rem;
+    margin-left: 9em;
+    float: right;
+    width: 70%;
+}
+.main-image{
+    background-color: lightblue;
+    /* width: 70%; */
+}
+.main-image img{
+    float: left;
+}
+.button-section { 
+    margin-top: 2rem;
+}
+.button-section button{
+    background-color: #2988f8;
+    padding: 0.9rem;
+    width: 35%;
+    border-color: transparent;
+    border-radius: 0.3rem;
+}
+.button-section p{
+    color: white;
+    font-weight: 500;
+    font-size: 1.2em;
 }
