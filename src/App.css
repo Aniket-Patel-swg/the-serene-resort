@@ -4,3 +4,6 @@
     margin: 0px;
     /* font-family: sans-serif, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
 }
+body{
+    overflow-x: hidden;
+}

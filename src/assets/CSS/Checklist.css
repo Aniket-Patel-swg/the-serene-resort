@@ -1,0 +1,75 @@
+.checklists {
+  display: flex;
+  height: 100vh;
+}
+.left-blank-section {
+  float: left;
+  width: 45%;
+}
+.right-photo-section {
+  width: 65%;
+}
+.right-photo-section img {
+  object-fit: contain;
+  height: 100vh;
+}
+.checklist-texts {
+  position: absolute;
+  width: 40%;
+  background-color: white;
+  border-radius: 0.4rem;
+  padding: 2rem;
+  box-shadow: 0px 15px 50px rgba(0, 0, 0, 0.2);
+  margin-top: 5rem;
+  margin-left: 7rem;
+}
+.checklist-texts h1 {
+  font-size: 2.7rem;
+  margin-top: 1rem;
+}
+.checklist-texts h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.checklist-lists {
+  display: flex;
+  margin-top: 2rem;
+}
+.checklist-lists ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.checklist-lists li {
+  position: relative;
+  padding-left: 1.5em;
+  margin-bottom: 0.5em;
+  line-height: 1.5;
+  font-size: 1.2rem;
+}
+.more-texts {
+  margin-top: 2rem;
+}
+.more-texts p {
+  font-size: 1.3rem;
+  color: #6b6b6b;
+}
+.checklist-lists li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.3em;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  background-color: #1fabad;
+}
+.checklist-lists li::after {
+  content: "\2713";
+  position: absolute;
+  left: 0.25em;
+  top: 0.55em;
+  color: #fff;
+  font-size: 0.65em;
+  font-weight: 900;
+}

@@ -20,10 +20,6 @@
     float: right;
     width: 70%;
 }
-.main-image{
-    background-color: lightblue;
-    /* width: 70%; */
-}
 .main-image img{
     float: left;
 }

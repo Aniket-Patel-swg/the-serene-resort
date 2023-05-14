@@ -5,6 +5,7 @@ import Carousel from "../Components/Carousel";
 import Location from "../Components/Location";
 import CallToAction from "../Components/CallToAction";
 import Cards from "../Components/Cards";
+import Checklist from "../Components/Checklist";
 
 const HomePage = () => {
   return (
@@ -15,6 +16,7 @@ const HomePage = () => {
         <Carousel />
         <Location />
         <Cards />
+        <Checklist />
         {/* <CallToAction /> */}
       </div>
     </>
