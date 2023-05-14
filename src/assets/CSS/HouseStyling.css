@@ -1,0 +1,25 @@
+.house-styling{
+    display: flex;
+    margin-top: 3rem;
+}
+.styling-image{
+    float: left;
+}
+.styling-image img{
+    padding: 4rem;
+    object-fit: contain;
+    height: 55vh;
+}
+.styling-text {
+    padding: 4rem;
+    padding-left: 1rem;
+    margin-top: 2rem;
+}
+.styling-text h2{
+    font-size: 2.7rem;
+}
+.styling-text p{
+    margin-top: 1.5rem;
+    color: grey;
+    font-size: 1.2rem;
+}

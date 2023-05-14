@@ -6,6 +6,7 @@ import Location from "../Components/Location";
 import CallToAction from "../Components/CallToAction";
 import Cards from "../Components/Cards";
 import Checklist from "../Components/Checklist";
+import HouseStyling from "../Components/HouseStyling";
 
 const HomePage = () => {
   return (
@@ -17,6 +18,7 @@ const HomePage = () => {
         <Location />
         <Cards />
         <Checklist />
+        <HouseStyling />
         {/* <CallToAction /> */}
       </div>
     </>
