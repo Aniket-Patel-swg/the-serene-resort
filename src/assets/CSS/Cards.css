@@ -1,0 +1,46 @@
+.cards-section{
+    background-color: #f1f1f1;
+    padding-bottom: 2rem;
+}
+.text-header {
+    text-align: center;
+}
+.text-header h1{
+    font-size: 2.6em;
+}
+.text-header p { 
+    margin-top: 1.2rem;
+    font-size: 1.4em;
+    color: #595959;
+}
+.serene-cards{
+    margin: 10rem;
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+.cards{
+    background-color: white;
+    width: auto;
+    padding: 2rem;
+    border-radius: 0.4rem;
+}
+.card-img img{
+    border-radius: 50%;
+    background-color: #E9F7F7;
+    padding: 1rem;
+}
+.general-text{
+    margin-top: 1.3rem;
+}
+.general-text h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.general-text p{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: #707070;
+    text-align: justify;
+}

@@ -1,0 +1,32 @@
+[
+    {
+        "image" : "https://www.ecobeachcity.com/wp-content/uploads/2022/09/star.svg",
+        "tagline" : "A slice of paradise",
+        "description" : "When you purchase a glamping tent, you can enjoy all the benefits of being part of a community. These benefits include attending events, participating in activities, accessing facilities, and much more."
+    },
+    {
+        "image" : "https://www.ecobeachcity.com/wp-content/uploads/2022/09/fontisto_island.svg",
+        "tagline" :"Live a carefree life",
+        "description" : "Eco Beach Village will provide you with all the necessary resources and supplies to make your life easier and more comfortable. No need to worry about day-to-day tasks in this eco-city."  
+    },
+    {
+        "image" : "https://www.ecobeachcity.com/wp-content/uploads/2022/09/banknotes.svg",
+        "tagline" :"Cost of eco-living",
+        "description" : "Enjoy a lower cost of living compared to the United Kingdom and get a higher return on your income by investing in Eco Beach Village."
+    },
+    {
+        "image" : "https://www.ecobeachcity.com/wp-content/uploads/2022/09/banknotes.svg",
+        "tagline" :"Ease of access",
+        "description" : "Sumba is conveniently located just a one-hour flight away from Bali, and other popular destinations in the region, making it easily accessible for travellers."
+    },
+    {
+        "image" : "https://www.ecobeachcity.com/wp-content/uploads/2022/09/healthicons_vespa-motorcycle.svg",
+        "tagline" :"Explore the island",
+        "description" : "By renting a motorcycle, you can easily navigate and explore the entire island from the north to south, for as little as £25 per month."
+    },
+    {
+        "image" : "https://www.ecobeachcity.com/wp-content/uploads/2022/09/building-storefront.svg",
+        "tagline" :"Online shopping",
+        "description" : "One of Indonesia’s largest e-commerce companies, Tokopedia offers a reliable delivery service, where your orders arrive on your doorstep within 2 to 3 days."
+    }
+]

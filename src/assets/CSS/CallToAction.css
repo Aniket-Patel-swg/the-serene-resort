@@ -1,0 +1,16 @@
+.call-to-action{
+  background: linear-gradient(rgba(32, 240, 67, 0.37), rgba(29, 220, 0, 0.353));
+  z-index: 1;
+    margin: auto;
+}
+.call-to-action img{
+    background-size: contain;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    /* height: 75vh; */
+}
+.final-text{
+    position: absolute;
+    margin: auto;
+}
