@@ -8,6 +8,7 @@ import Cards from "../Components/Cards";
 import Checklist from "../Components/Checklist";
 import HouseStyling from "../Components/HouseStyling";
 import Amenities from "../Components/Amenities";
+import Investment from "../Components/Investment";
 
 const HomePage = () => {
   return (
@@ -21,6 +22,7 @@ const HomePage = () => {
         <Checklist />
         <HouseStyling />
         <Amenities />
+        <Investment />
         {/* <CallToAction /> */}
       </div>
     </>
