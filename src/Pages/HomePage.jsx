@@ -9,6 +9,7 @@ import Checklist from "../Components/Checklist";
 import HouseStyling from "../Components/HouseStyling";
 import Amenities from "../Components/Amenities";
 import Investment from "../Components/Investment";
+import AboutUs from "../Components/AboutUs";
 
 const HomePage = () => {
   return (
@@ -24,6 +25,7 @@ const HomePage = () => {
         <Amenities />
         <Investment />
         {/* <CallToAction /> */}
+        <AboutUs />
       </div>
     </>
   );

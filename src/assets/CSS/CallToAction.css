@@ -1,16 +1,13 @@
 .call-to-action{
-  background: linear-gradient(rgba(32, 240, 67, 0.37), rgba(29, 220, 0, 0.353));
-  z-index: 1;
-    margin: auto;
+    text-align: center;
+    margin-top: 4rem;
+    background-color: white;
 }
-.call-to-action img{
-    background-size: contain;
-    width: 100%;
-    position: absolute;
-    z-index: -1;
-    /* height: 75vh; */
+.call-to-action h1{
+    font-size: 2.8rem;
 }
-.final-text{
-    position: absolute;
-    margin: auto;
+.call-to-action p{
+    color: #717171;
+    font-size: 1.4rem;
+    margin-top: 1rem;
 }

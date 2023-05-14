@@ -1,0 +1,46 @@
+.about-section{
+    background-color: #f1f1f1;
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+}
+.about-section h1{
+    text-align: center;
+    font-size: 3rem;
+}
+.about-section p{
+    text-align: center;
+    margin-top: 1.3rem;
+    font-size: 1.3rem;
+    color: grey;
+}
+.founder-section-card{
+    width: 60%;
+    margin: auto;
+    background-color: white;
+    padding: 2rem;
+    margin-top: 2rem;
+    border-radius: 0.5rem;
+}
+.founder-section-card img{
+    padding: 0px 0.5rem;
+}
+.founder-section{
+    display: flex;
+}
+.right-text-section{
+    margin-left: 1.5rem;
+}
+.founder-section h4{
+    font-size: 2.3rem;
+}
+.founder-section h6{
+    font-size: 1.3rem;
+    color: grey;
+    margin-top: 0.3rem;
+}
+.founder-section p{
+    text-align: justify;
+    color: rgb(32, 32, 32);
+    margin-top: 2rem;
+    font-weight: 200;
+}
