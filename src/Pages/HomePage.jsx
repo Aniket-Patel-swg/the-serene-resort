@@ -7,6 +7,7 @@ import CallToAction from "../Components/CallToAction";
 import Cards from "../Components/Cards";
 import Checklist from "../Components/Checklist";
 import HouseStyling from "../Components/HouseStyling";
+import Amenities from "../Components/Amenities";
 
 const HomePage = () => {
   return (
@@ -19,6 +20,7 @@ const HomePage = () => {
         <Cards />
         <Checklist />
         <HouseStyling />
+        <Amenities />
         {/* <CallToAction /> */}
       </div>
     </>
