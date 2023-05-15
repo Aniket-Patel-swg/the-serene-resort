@@ -11,6 +11,7 @@ import Amenities from "../Components/Amenities";
 import Investment from "../Components/Investment";
 import AboutUs from "../Components/AboutUs";
 import Team from "../Components/Team";
+import FinalCallToAction from "../Components/FinalCallToAction";
 
 const HomePage = () => {
   return (
@@ -28,6 +29,7 @@ const HomePage = () => {
         {/* <CallToAction /> */}
         <AboutUs />
         <Team />
+        <FinalCallToAction />
       </div>
     </>
   );
