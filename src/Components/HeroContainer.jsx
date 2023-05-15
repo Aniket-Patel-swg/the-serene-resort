@@ -9,7 +9,7 @@ const HeroContainer = () => {
         <div className="Main-section">
           <div className="main-texts">
             <p className="tagline">
-              Dream Homes in <br /> Paradise from <br /> €65,000
+              Dream Homes in  Paradise from  €65,000
             </p>
             <p className="basic-info-text">
               Discover the paradise island of Sumba, Indonesia, located just one

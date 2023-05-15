@@ -1,6 +1,7 @@
 .Main-section{
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 .tagline{
     font-size: 4em;
@@ -13,10 +14,11 @@
     font-weight: 400;
     max-width: 35vw;
     color: grey;
+    margin-left: 0;
+
 }
 .main-texts{
-    margin: 6.5rem;
-    margin-left: 9em;
+    margin-left: 1em;
     float: right;
     width: 70%;
 }
