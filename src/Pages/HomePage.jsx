@@ -14,6 +14,7 @@ import Team from "../Components/Team";
 import FinalCallToAction from "../Components/FinalCallToAction";
 import ArrowDropUpIcon from "@mui/icons-material/ArrowDropUp";
 import '../assets/CSS/HomePage.css';
+import WhatsAppimg from '../assets/Images/Whatsapp-icon.png';
 
 const HomePage = () => {
   const handleClick = () => {
@@ -30,6 +31,11 @@ const HomePage = () => {
             <ArrowDropUpIcon fontSize="large" />
           </div>
         </section>
+        <seciton className="whatsapp-button">
+          <a href="https://wa.me/+1234567890" target="_BLANK">
+            <img src={WhatsAppimg} alt="" />
+          </a>
+        </seciton>
         <HeroContainer />
         <Refrences />
         <Carousel />

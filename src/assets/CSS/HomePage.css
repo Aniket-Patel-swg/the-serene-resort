@@ -1,13 +1,24 @@
 .scroll-button {
-    border-radius: 50%;
-  }
-  .back-to-top-btn {
-    position: fixed;
-    background-color: #1FABAD;
-    right: 15px;
-    top: 90%;
-    z-index: 50;
-    border-radius: 20em;
-    padding: 0.5em;
-    color: white;
-  }
+  border-radius: 50%;
+}
+.back-to-top-btn {
+  position: fixed;
+  background-color: #1fabad;
+  right: 15px;
+  top: 90%;
+  z-index: 50;
+  border-radius: 20em;
+  padding: 0.5em;
+  color: white;
+}
+.whatsapp-button{
+  position: fixed;
+  left: 15px;
+  top: 85%;
+  z-index: 5;
+}
+.whatsapp-button img{
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+}
