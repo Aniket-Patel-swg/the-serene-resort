@@ -1,0 +1,46 @@
+.team-section {
+  background-color: white;
+  margin-top: 3rem;
+}
+.team-section h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+.team-section p {
+  color: grey;
+  font-size: 1.3rem;
+  margin-top: 1.2rem;
+  text-align: center;
+}
+
+
+.team-section {
+    text-align: center;
+  }
+  
+  .agents-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+  .agent-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 0px;
+    flex-basis: calc(30% - 20px);
+  }
+  
+  .agent-div img {
+    /* width: 100px;
+    height: 100px; */
+    border-radius: 50%;
+  }
+  
+  .agent-div h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+  }
+  

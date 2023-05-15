@@ -10,6 +10,7 @@ import HouseStyling from "../Components/HouseStyling";
 import Amenities from "../Components/Amenities";
 import Investment from "../Components/Investment";
 import AboutUs from "../Components/AboutUs";
+import Team from "../Components/Team";
 
 const HomePage = () => {
   return (
@@ -26,6 +27,7 @@ const HomePage = () => {
         <Investment />
         {/* <CallToAction /> */}
         <AboutUs />
+        <Team />
       </div>
     </>
   );
