@@ -1,0 +1,13 @@
+.scroll-button {
+    border-radius: 50%;
+  }
+  .back-to-top-btn {
+    position: fixed;
+    background-color: #1FABAD;
+    right: 15px;
+    top: 90%;
+    z-index: 50;
+    border-radius: 20em;
+    padding: 0.5em;
+    color: white;
+  }
