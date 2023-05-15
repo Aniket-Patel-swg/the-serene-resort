@@ -1,4 +1,63 @@
-.nav-container{
-    padding: 3em;
-    background-color: rgb(255, 228, 233);
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 2.2em;
+    padding-left: 2em;
+}
+
+header img {
+    width:220px;
+    height: 37px;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+/* Navigation */
+nav {
+    margin-top:1em;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    background-color: white;
+}
+
+nav a {
+    font-family: "Inter", Sans-serif;
+    font-size: 16px;
+    font-weight: 550;
+    line-height: 1.25em;
+    letter-spacing: 0.2px;
+    color: #666868;
+    text-decoration: none;
+    margin-right: 3em;
+}
+
+nav a:first-child{
+    margin-left: 0em;
+}
+nav a:last-child{
+    margin-right: 3em;
+}
+
+nav a:hover {
+    text-decoration: none;
+}
+
+header .cta-button {
+    color: white;
+    background-color: #1675e5;
+    padding: 0.5rem 1.5rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header .cta-button:hover {
+    background-color: #2988f8;
 }
