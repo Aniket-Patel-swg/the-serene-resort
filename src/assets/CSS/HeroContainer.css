@@ -41,3 +41,40 @@
     font-weight: 500;
     font-size: 1.2em;
 }
+
+
+/* For screens with a maximum width of 768px */
+@media only screen and (max-width: 768px) {
+    .Main-section {
+      flex-direction: column;
+    }
+    
+    .tagline {
+      font-size: 3em;
+    }
+    
+    .basic-info-text {
+      max-width: 100%;
+      font-size: 1.1em;
+      margin-top: 0.8em;
+    }
+    
+    .main-texts {
+      margin: 2rem;
+      margin-top: 4rem;
+      width: 100%;
+    }
+    
+    .button-section button {
+      width: 100%;
+    }
+  }
+  
+  /* For screens with a maximum width of 1024px */
+  @media only screen and (max-width: 1024px) {
+    .main-texts {
+      margin-left: 3em;
+      margin-right: 3em;
+    }
+  }
+  
