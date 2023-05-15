@@ -1,0 +1,45 @@
+.footer{
+    background-color: #0a393a;
+    display: flex;
+    color: white;
+}
+.footer-elements{
+    padding: 8rem 10rem;
+}
+.footer-elements a{
+    color: white;
+    text-decoration: none;
+    margin-right: 2rem;
+    font-size: 1.2rem;
+    color: rgb(232, 232, 232);
+}
+.logo-section{
+    margin-bottom: 2rem;
+}
+.privacy-policy{
+    margin-top: 2.3rem;
+}
+.privacy-policy a{
+    margin-right: 1.2rem;
+}
+#Cookies{
+    margin-left: 1.2rem;
+}
+.privacy-policy span{
+    color: white;
+}
+.footer-contacts{
+    margin-top: 8rem;
+}
+.footer-contacts h3{
+    font-size: 2rem;
+}
+.footer-contacts p {
+    margin-top: 1.2rem;
+    /* margin: auto; */
+    font-size: 1.2rem;
+}
+.footer-contacts span{
+    margin: auto;
+    margin: 0px 1rem;
+}

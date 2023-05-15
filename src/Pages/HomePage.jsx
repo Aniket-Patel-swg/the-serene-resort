@@ -15,6 +15,7 @@ import FinalCallToAction from "../Components/FinalCallToAction";
 import ArrowDropUpIcon from "@mui/icons-material/ArrowDropUp";
 import '../assets/CSS/HomePage.css';
 import WhatsAppimg from '../assets/Images/Whatsapp-icon.png';
+import Footer from "../Components/Footer";
 
 const HomePage = () => {
   const handleClick = () => {
@@ -49,6 +50,7 @@ const HomePage = () => {
         <AboutUs />
         <Team />
         <FinalCallToAction />
+        <Footer />
       </div>
     </>
   );
