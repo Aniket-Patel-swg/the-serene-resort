@@ -37,20 +37,20 @@ const HomePage = () => {
             <img src={WhatsAppimg} alt="" />
           </a>
         </seciton>
-        <HeroContainer />
+        {/* <HeroContainer /> */}
         <Refrences />
-        <Carousel />
+        {/* <Carousel />
         <Location />
         <Cards />
         <Checklist />
         <HouseStyling />
         <Amenities />
-        <Investment />
+        <Investment /> */}
         {/* <CallToAction /> */}
-        <AboutUs />
+        {/* <AboutUs />
         <Team />
         <FinalCallToAction />
-        <Footer />
+        <Footer /> */}
       </div>
     </>
   );

@@ -1,82 +1,190 @@
-.Main-section{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+.Main-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
-.tagline{
-    font-size: 4em;
-    font-weight: 900;
+.tagline {
+  font-size: 4em;
+  font-weight: 900;
 }
-.basic-info-text{
-    /* max-width: 5em; */
-    margin-top: 1.2em;
-    font-size: 1.3em;
-    font-weight: 400;
-    max-width: 35vw;
-    color: grey;
-    margin-left: 0;
+.basic-info-text {
+  /* max-width: 5em; */
+  margin-top: 1.2em;
+  font-size: 1.3em;
+  font-weight: 400;
+  max-width: 35vw;
+  color: grey;
+  margin-left: 0;
+}
+.main-texts {
+  margin-left: 6em;
+  float: right;
+  width: 70%;
+  margin-right: 3rem;
+}
+.main-image img {
+  float: left;
+  max-width: 120%;
+  height: auto;
+  object-fit: contain;
+}
+.button-section {
+  margin-top: 2rem;
+}
+.button-section button {
+  background-color: #2988f8;
+  padding: 0.9rem;
+  width: 35%;
+  border-color: transparent;
+  border-radius: 0.3rem;
+}
+.button-section button:hover {
+  cursor: pointer;
+}
+.button-section p {
+  color: white;
+  font-weight: 500;
+  font-size: 1.2em;
+}
 
+
+/* media queries  */
+
+@media (max-width: 1249px) {
+  .tagline {
+    font-size: 2.5em;
+  }
+
+  .basic-info-text {
+    font-size: 1em;
+    max-width: 50vw;
+  }
+
+  .main-texts {
+    margin-left: 4em;
+    margin-right: 3rem;
+  }
+
+  .button-section button {
+    width: 40%;
+  }
+
+  .button-section p {
+    font-size: 0.9em;
+  }
 }
-.main-texts{
-    margin-left: 1em;
-    float: right;
-    width: 70%;
+@media (max-width: 1024px) {
+  .Main-section {
+    margin-bottom: 0px;
+  }
+  .tagline {
+    font-size: 2em;
+  }
+  .basic-info-text {
+    font-size: 1em;
+    max-width: 50vw;
+  }
+  .main-texts {
+    margin-left: 3em;
+    margin-right: 2rem;
+  }
+  .button-section button {
+    width: 40%;
+  }
 }
-.main-image img{
-    float: left;
+@media (min-width: 450px) and (max-width: 740px) {
+  .Main-section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-image img {
+    width: 100vw;
+    height: 100%;
+    object-fit: cover;
+  }
+  .main-image {
+    top: 0px;
+    position: absolute;
+    width: 100vw;
+    height: 55vh;
+    object-fit: cover;
+    z-index: -1;
+  }
+
+  .main-texts {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 90%;
+    max-width: 80%;
+    z-index: 5;
+    height: auto;
+    padding: 6.3% 3.3%;
+    top: 2rem;
+    margin: 0px;
+    border-radius: 0.5rem;
+  }
+  .basic-info-text {
+    min-width: 100%;
+  }
 }
-.button-section { 
+
+@media (min-width: 190px) and (max-width: 450px) {
+  .Main-section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-image img {
+    width: 100vw;
+    height: 100%;
+    object-fit: cover;
+  }
+  .main-image {
+    top: 0px;
+    position: absolute;
+    width: 100vw;
+    height: 50vh;
+    object-fit: cover;
+    z-index: -1;
+  }
+
+  .main-texts {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 90%;
+    max-width: 80%;
+    z-index: 5;
+    height: auto;
+    padding: 6.3% 3.3%;
+    margin: 1rem 0px;
+    margin-top: 0px;
+    top: 1.3rem;
+    border-radius: 0.5rem;
+  }
+  .basic-info-text {
+    min-width: 100%;
+    font-size: 0.8rem;
+  }
+  .tagline{
+    font-size: 1.5rem;
+  }
+  .button-section {
     margin-top: 2rem;
-}
-.button-section button{
+  }
+  .button-section button {
     background-color: #2988f8;
-    padding: 0.9rem;
-    width: 35%;
+    padding: 0.5rem;
+    width: 40%;
     border-color: transparent;
     border-radius: 0.3rem;
-}
-.button-section button:hover{
+    font-size: 0.5rem;
+  }
+  .button-section button:hover {
     cursor: pointer;
-}
-.button-section p{
-    color: white;
-    font-weight: 500;
-    font-size: 1.2em;
-}
-
-
-/* For screens with a maximum width of 768px */
-@media only screen and (max-width: 768px) {
-    .Main-section {
-      flex-direction: column;
-    }
-    
-    .tagline {
-      font-size: 3em;
-    }
-    
-    .basic-info-text {
-      max-width: 100%;
-      font-size: 1.1em;
-      margin-top: 0.8em;
-    }
-    
-    .main-texts {
-      margin: 2rem;
-      margin-top: 4rem;
-      width: 100%;
-    }
-    
-    .button-section button {
-      width: 100%;
-    }
   }
-  
-  /* For screens with a maximum width of 1024px */
-  @media only screen and (max-width: 1024px) {
-    .main-texts {
-      margin-left: 3em;
-      margin-right: 3em;
-    }
-  }
-  
+}
