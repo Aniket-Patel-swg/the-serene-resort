@@ -4,6 +4,7 @@
 }
 .text-header {
     text-align: center;
+    transition: font-size 2s ease-in-out;
 }
 .text-header h1{
     font-size: 2.6em;
@@ -25,6 +26,7 @@
     width: auto;
     padding: 2rem;
     border-radius: 0.4rem;
+    transition: width 2s ease-in-out;
 }
 .card-img img{
     border-radius: 50%;
@@ -67,6 +69,15 @@
       grid-template-columns: repeat(1, 1fr);
       margin: 4rem;
       margin-top: 2rem;
+    }
+    .text-header{
+        padding-top: 3rem;
+    }
+    .text-header h1{
+        font-size: 2.5rem;
+    }
+    .text-header p {
+        font-size: 1.2rem;
     }
   }
   
