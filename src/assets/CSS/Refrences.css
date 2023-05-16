@@ -1,38 +1,128 @@
-.refrences-container{
+.refrences-container {
     padding: 3em;
     padding: 5.5rem 0px 5.5rem 0px;
-}
-.refrence-div{
+  }
+  
+  .refrence-div {
     display: flex;
     margin-left: 3.5em;
-}
-.text-section{
+  }
+  
+  .text-section {
     width: 25%;
     margin: auto;
-}
-.text-section p{
+  }
+  
+  .text-section p {
     font-size: 1.7rem;
     font-weight: 900;
-}
-.images-section{
+  }
+  
+  .images-section {
     display: flex;
+    flex-wrap: wrap; /* Added property */
     margin: auto;
     column-gap: 2em;
     width: 55%;
-}
-.images-section img{
+  }
+  
+  .images-section img {
     max-width: 10.5%;
     /* height: %; */
     object-fit: contain;
     filter: grayscale(100%);
-}
-#image2{
+  }
+  
+  #image2 {
     max-width: 23.5%;
     /* height: %; */
     object-fit: contain;
-}
-#image1{
+  }
+  
+  #image1 {
     max-width: 10.5%;
     /* height: %; */
     object-fit: contain;
-}
+  }
+  
+  /* Media Queries */
+  
+  /* Breakpoint: 1249px */
+  @media (max-width: 1249px) {
+    .refrences-container {
+      padding: 2em;
+    }
+  
+    .refrence-div {
+      flex-direction: column;
+      align-items: center;
+      margin-left: 0;
+    }
+  
+    .text-section {
+      width: 100%;
+      margin-bottom: 1em;
+    }
+  
+    .images-section {
+      width: 100%;
+    }
+  }
+  
+  /* Breakpoint: 1024px */
+  @media (max-width: 1024px) {
+    .refrences-container {
+      padding: 1.5em;
+    }
+  
+    .text-section p {
+      font-size: 1.5rem;
+    }
+  
+    .images-section img {
+      max-width: 10%;
+    }
+  
+    #image2 {
+      max-width: 20%;
+    }
+  }
+  
+  /* Breakpoint: 740px */
+  @media (min-width: 450px) and (max-width: 740px) {
+    .refrences-container {
+      padding: 1em;
+    }
+  
+    .text-section p {
+      font-size: 1.2rem;
+    }
+  
+    .images-section img {
+      max-width: 10%;
+    }
+  
+    #image2 {
+      max-width: 25%;
+    }
+  }
+  
+  /* Breakpoint: 450px */
+  @media (min-width: 190px) and (max-width: 450px) {
+    .refrences-container {
+      padding: 0.5em;
+    }
+  
+    .text-section p {
+      font-size: 1rem;
+    }
+  
+    .images-section img {
+      max-width: 25%;
+    }
+  
+    #image2 {
+      max-width: 30%;
+    }
+  }
+  
