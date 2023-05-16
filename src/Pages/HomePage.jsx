@@ -39,18 +39,18 @@ const HomePage = () => {
         </seciton>
         <HeroContainer />
         <Refrences />
-        {/* <Carousel />
+        <Carousel />
         <Location />
         <Cards />
         <Checklist />
         <HouseStyling />
         <Amenities />
-        <Investment /> */}
+        <Investment />
         {/* <CallToAction /> */}
-        {/* <AboutUs />
+        <AboutUs />
         <Team />
         <FinalCallToAction />
-        <Footer /> */}
+        <Footer />
       </div>
     </>
   );
