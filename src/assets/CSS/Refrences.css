@@ -11,6 +11,7 @@
   .text-section {
     width: 25%;
     margin: auto;
+    transition: font-size 2s ease-in-out;
   }
   
   .text-section p {
@@ -24,6 +25,7 @@
     margin: auto;
     column-gap: 2em;
     width: 55%;
+    transition: max-width 2s ease-in-out;
   }
   
   .images-section img {
@@ -31,6 +33,7 @@
     /* height: %; */
     object-fit: contain;
     filter: grayscale(100%);
+    transition: max-width 2s ease-in-out;
   }
   
   #image2 {

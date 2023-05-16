@@ -6,6 +6,7 @@
 .tagline {
   font-size: 4em;
   font-weight: 900;
+  transition: font-size 1s ease-in-out;
 }
 .basic-info-text {
   /* max-width: 5em; */
@@ -15,6 +16,7 @@
   max-width: 35vw;
   color: grey;
   margin-left: 0;
+  transition: max-width 1s ease-in-out;
 }
 .main-texts {
   margin-left: 6em;
@@ -91,7 +93,7 @@
     width: 40%;
   }
 }
-@media (min-width: 450px) and (max-width: 740px) {
+@media (min-width: 450px) and (max-width: 800px) {
   .Main-section {
     position: relative;
     display: grid;

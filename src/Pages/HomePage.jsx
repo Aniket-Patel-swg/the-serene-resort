@@ -42,10 +42,10 @@ const HomePage = () => {
         <Carousel />
         <Location />
         <Cards />
-        <Checklist />
+        {/* <Checklist />
         <HouseStyling />
         <Amenities />
-        <Investment />
+        <Investment /> */}
         {/* <CallToAction /> */}
         {/* <AboutUs />
         <Team />
