@@ -41,16 +41,16 @@ const HomePage = () => {
         <Refrences />
         <Carousel />
         <Location />
-        <Cards />
+        {/* <Cards />
         <Checklist />
         <HouseStyling />
         <Amenities />
-        <Investment />
+        <Investment /> */}
         {/* <CallToAction /> */}
-        <AboutUs />
+        {/* <AboutUs />
         <Team />
         <FinalCallToAction />
-        <Footer />
+        <Footer /> */}
       </div>
     </>
   );

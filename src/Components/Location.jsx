@@ -6,7 +6,6 @@ const Location = () => {
   return (
     <>
       <div className="location-section">
-        <div className="overlay"></div>
         <div className="info-section">
           <div className="left-img">
             <img src={locationimg} alt="" />
