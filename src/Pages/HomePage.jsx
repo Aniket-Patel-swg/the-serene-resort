@@ -48,8 +48,8 @@ const HomePage = () => {
         <Investment />
         {/* <CallToAction /> */}
         <AboutUs />
-        {/* <Team />
-        <FinalCallToAction />
+        <Team />
+        {/* <FinalCallToAction />
         <Footer /> */}
       </div>
     </>

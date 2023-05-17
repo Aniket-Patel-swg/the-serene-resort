@@ -31,6 +31,8 @@
     align-items: center;
     margin: 1rem 0px;
     flex-basis: calc(30% - 20px);
+    /* Not sure if this works or not  */
+    transition: image 1s ease-in-out;
   }
   
   .agent-div img {
@@ -44,3 +46,35 @@
     font-size: 1.2em;
   }
   
+
+
+
+  /* Media Queries */
+
+/* Breakpoint 1: max-width: 1249px */
+@media (max-width: 1249px) {
+  .agent-div {
+    flex-basis: calc(33.33% - 20px);
+  }
+}
+
+/* Breakpoint 2: max-width: 1024px */
+@media (max-width: 1024px) {
+  .agent-div {
+    flex-basis: calc(50% - 20px);
+  }
+}
+
+/* Breakpoint 3: min-width: 450px and max-width: 740px */
+@media (min-width: 450px) and (max-width: 740px) {
+  .agent-div {
+    flex-basis: calc(50% - 20px);
+  }
+}
+
+/* Breakpoint 4: min-width: 190px and max-width: 450px */
+@media (min-width: 190px) and (max-width: 450px) {
+  .agent-div {
+    flex-basis: calc(100% - 20px);
+  }
+}
