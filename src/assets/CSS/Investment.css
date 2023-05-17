@@ -75,6 +75,7 @@
     height: 50vh;
     margin: auto;
     border-radius: 0.5rem;
+    padding: 3rem 3rem;
 }
 .investment-card p{
     color: #f1f1f1;
@@ -84,3 +85,111 @@
 .investment-card li{
     display: flex;
 }
+
+
+/* media queries  */
+/* Max-width: 1249px */
+@media (max-width: 1249px) {
+    .investment-detail-section{
+        padding-left: 6rem;
+    }
+    .investment-detail-section p{
+        font-size: 1.2rem;
+    }
+    .investment-detail-section h1{
+        font-size: 3rem;
+    }
+    .investment-benefits-list p{
+        font-size: 1.2rem;
+    }
+
+    .investment-card{
+        width: 35%;
+        margin-left: 4rem;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem 2rem;
+    }
+    .investment-card p{
+        font-size: 1.2rem;
+    }
+  }
+  
+  /* Max-width: 1024px */
+  @media (max-width: 1024px) {
+    .investment-detail-section{
+        padding-left: 4rem;
+    }
+    .investment-detail-section p{
+        font-size: 1rem;
+    }
+    .investment-detail-section h1{
+        font-size: 2.8rem;
+    }
+    .investment-benefits-list p{
+        font-size: 1rem;
+    }
+
+    .investment-card{
+        width: 35%;
+        margin-left: 4rem;
+        justify-content: center;
+        align-items: center;
+        padding: 1.3rem 1.3rem;
+    }
+    .investment-card p{
+        font-size: 1rem;
+    }
+  }
+  
+  /* Min-width: 450px and Max-width: 740px */
+  @media (min-width: 450px) and (max-width: 840px) {
+    .investment-section {
+      padding-bottom: 2rem;
+    }
+  
+    .investment-detail-section {
+      width: 100%;
+     padding: 3rem;
+    }
+  
+    .investment-card {
+      width: 80%;
+      height: auto;
+      padding: 2rem 2rem;
+      margin: 0px 3rem;
+      padding-top: 0.3rem;
+    }
+  }
+  
+  /* Min-width: 190px and Max-width: 450px */
+  @media (min-width: 190px) and (max-width: 450px) {
+    .investment-section {
+        padding-bottom: 2rem;
+      }
+    .investment-benefits-list p{
+        font-size: 1rem;
+    }
+    .investment-benefits-list h4{
+        font-size: 1.3rem;
+    }
+      .investment-detail-section {
+        width: 100%;
+       padding: 3rem;
+      }
+      .investment-detail-section h1{
+        font-size: 2.5rem;
+      }
+    
+      .investment-card {
+        width: 80%;
+        height: auto;
+        padding: 2rem 2rem;
+        padding-top: 0.5rem;
+        margin: 0px 1.5rem;
+      }
+      .investment-card p{
+        font-size: 0.9rem;
+      }
+  }
+  
