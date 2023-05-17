@@ -47,8 +47,8 @@ const HomePage = () => {
         <Amenities />
         <Investment />
         {/* <CallToAction /> */}
-        {/* <AboutUs />
-        <Team />
+        <AboutUs />
+        {/* <Team />
         <FinalCallToAction />
         <Footer /> */}
       </div>

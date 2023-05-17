@@ -44,3 +44,121 @@
     margin-top: 2rem;
     font-weight: 200;
 }
+
+
+
+
+/* Breakpoint: max-width 1249px */
+@media (max-width: 1249px) {
+    .founder-section-card {
+      width: 70%;
+    }
+  }
+  
+  /* Breakpoint: max-width 1024px */
+  @media (max-width: 1024px) {
+    .founder-section-card {
+      width: 80%;
+    }
+  }
+  
+  /* Breakpoint: min-width 450px and max-width 740px */
+  @media (min-width: 450px) and (max-width: 740px) {
+    .founder-section-card {
+      width: 90%;
+    }
+  }
+  
+  /* Breakpoint: min-width 190px and max-width 450px */
+  @media (min-width: 190px) and (max-width: 450px) {
+    .founder-section-card {
+      width: 100%;
+      padding: 1rem;
+    }
+    .founder-section-card img {
+      padding: 0;
+    }
+  }
+  
+  /* Additional styles for responsiveness */
+  @media (max-width: 1249px) {
+    .about-section h1 {
+      font-size: 2.5rem;
+    }
+    .about-section p {
+      font-size: 1.1rem;
+    }
+    .founder-section-card p {
+      font-size: 1.1rem;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    .about-section h1 {
+      font-size: 2rem;
+    }
+    .about-section p {
+      font-size: 1rem;
+    }
+    .founder-section-card p {
+      font-size: 1rem;
+    }
+    .right-text-section img{
+        width: 2.8rem;
+    }
+  }
+  
+  @media (max-width: 740px) {
+    .founder-section {
+      flex-direction: column;
+      align-items: center;
+    }
+    .right-text-section {
+      margin-left: 0;
+      margin-top: 1.5rem;
+      padding: 2rem;
+    }
+    .founder-section-card {
+      padding: 1rem;
+    }
+    .right-text-section img{
+        width: 2.5rem;
+    }
+  }
+  
+  @media (max-width: 450px) {
+    .about-section h1 {
+      font-size: 1.5rem;
+    }
+    .about-section p {
+      font-size: 0.9rem;
+    }
+    .founder-section-card {
+      padding: 0.5rem;
+    }
+    .founder-section-card h4 {
+      font-size: 1.8rem;
+    }
+    .founder-section-card h6 {
+      font-size: 1rem;
+    }
+    .founder-section-card p {
+      font-size: 0.9rem;
+    }
+    .right-text-section img{
+        width: 2.3rem;
+    }
+  }
+  
+  @media (max-width: 340px) {
+    .founder-section-card h4 {
+      font-size: 1.5rem;
+    }
+    .founder-section-card h6 {
+      font-size: 0.9rem;
+    }
+    .right-text-section img{
+        width: 2em;
+    }
+  }
+  
