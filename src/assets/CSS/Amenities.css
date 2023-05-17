@@ -19,3 +19,36 @@
     margin-top: 1rem;
     font-size: 1.2rem;
 }
+
+
+
+/* Media Queries */
+
+@media (max-width: 1249px) {
+    .aminities-card {
+      width: 25%;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    .aminities-card {
+      width: 33.33%;
+    }
+  }
+  
+  @media (min-width: 450px) and (max-width: 740px) {
+    .aminities-card {
+      width: 50%;
+    }
+  }
+  
+  @media (min-width: 190px) and (max-width: 450px) {
+    .aminities-card {
+      width: 100%;
+      margin-left: 0;
+    }
+  
+    .aminities-section {
+      margin: 2rem;
+    }
+  }

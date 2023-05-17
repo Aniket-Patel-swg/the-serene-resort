@@ -44,8 +44,8 @@ const HomePage = () => {
         <Cards />
         <Checklist />
         <HouseStyling />
-        {/* <Amenities />
-        <Investment /> */}
+        <Amenities />
+        {/* <Investment /> */}
         {/* <CallToAction /> */}
         {/* <AboutUs />
         <Team />
