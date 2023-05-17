@@ -49,8 +49,8 @@ const HomePage = () => {
         {/* <CallToAction /> */}
         <AboutUs />
         <Team />
-        {/* <FinalCallToAction />
-        <Footer /> */}
+        <FinalCallToAction />
+        {/* <Footer /> */}
       </div>
     </>
   );

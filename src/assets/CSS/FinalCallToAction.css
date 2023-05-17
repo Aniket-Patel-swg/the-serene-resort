@@ -44,3 +44,51 @@
     cursor: pointer;
   }
   
+
+
+
+  /* Media Queries */
+@media (max-width: 1249px) {
+  .final-texts h2 {
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .final-call-to-action {
+    margin-top: 3rem;
+  }
+  .final-texts h2 {
+    font-size: 2.2rem;
+    margin-top: 4rem;
+  }
+}
+
+@media (min-width: 450px) and (max-width: 740px) {
+  .final-texts {
+    margin-top: 4rem;
+  }
+  .final-texts h2 {
+    font-size: 2rem;
+  }
+  .final-texts button {
+    margin-top: 1.5rem;
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 190px) and (max-width: 450px) {
+  .final-call-to-action {
+    margin-top: 2rem;
+  }
+  .final-texts{
+    margin-top: 5rem;
+  }
+  .final-texts h2 {
+    font-size: 1.5rem;
+  }
+  .final-texts button {
+    margin-top: 1rem;
+    font-size: 0.8rem;
+  }
+}
