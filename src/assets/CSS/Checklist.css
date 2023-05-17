@@ -2,17 +2,22 @@
   display: flex;
   height: 100vh;
 }
+
 .left-blank-section {
   float: left;
   width: 45%;
 }
+
 .right-photo-section {
   width: 65%;
 }
+
 .right-photo-section img {
   object-fit: contain;
-  height: 100vh;
+  height: 100%;
+  max-width: 100%;
 }
+
 .checklist-texts {
   position: absolute;
   width: 40%;
@@ -23,23 +28,28 @@
   margin-top: 5rem;
   margin-left: 7rem;
 }
+
 .checklist-texts h1 {
   font-size: 2.7rem;
   margin-top: 1rem;
 }
+
 .checklist-texts h3 {
   font-size: 1.5rem;
   font-weight: 500;
 }
+
 .checklist-lists {
   display: flex;
   margin-top: 2rem;
 }
+
 .checklist-lists ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
+
 .checklist-lists li {
   position: relative;
   padding-left: 1.5em;
@@ -47,13 +57,16 @@
   line-height: 1.5;
   font-size: 1.2rem;
 }
+
 .more-texts {
   margin-top: 2rem;
 }
+
 .more-texts p {
   font-size: 1.3rem;
   color: #6b6b6b;
 }
+
 .checklist-lists li::before {
   content: "";
   position: absolute;
@@ -64,6 +77,7 @@
   border-radius: 50%;
   background-color: #1fabad;
 }
+
 .checklist-lists li::after {
   content: "\2713";
   position: absolute;
@@ -72,4 +86,140 @@
   color: #fff;
   font-size: 0.65em;
   font-weight: 900;
+}
+
+/* Media Queries */
+
+@media (min-width: 1250px) {
+  .right-photo-section img{
+    height: 100vh;
+    object-fit: cover;
+  }
+}
+/* Breakpoint 1: max-width 1249px */
+@media (max-width: 1249px) {
+  .checklist-texts {
+    width: 50%;
+    margin-left: 3rem;
+  }
+  .right-photo-section img{
+    width: auto;
+    height: 70vw;
+    object-fit: cover;
+  }
+  .checklist-lists h3{
+    font-size: 1.3rem;
+  }
+  .checklist-lists h1 {
+    font-size: 2.5rem;
+  }
+}
+
+/* Breakpoint 2: max-width 1024px */
+@media (max-width: 1024px) {
+  .checklist-texts {
+    width: 60%;
+    margin-left: 3rem;
+  }
+  .checklist-texts h1{
+    font-size: 2.5rem ;
+  }
+  .checklist-texts  h3{
+    font-size: 1.8rem;
+  }
+  .checklist-texts p{
+    font-size: 1.1rem;
+  }
+  .right-photo-section img{
+    width: auto;
+    height: 100vh;
+    object-fit: cover;
+  }
+}
+
+
+/* Breakpoint 3: min-width 450px */
+@media (min-width: 450px) and (max-width: 740px) {
+  .checklists{
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+  }
+  .checklist-texts {
+    width: 80%;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  .right-photo-section {
+    width: 100%;
+  }
+  .checklist-texts p{
+    font-size: 0.9rem;
+  }
+  .checklist-texts h1{
+    font-size: 2rem;
+  }
+  .checklist-texts h3{
+    font-size: 1.5rem;
+  }
+  .right-photo-section{
+    width: 100%;
+  }
+  .left-blank-section{
+    width: 0%;
+  }
+  .right-photo-section img{
+    width: 100vw;
+    height: 80vh;
+    object-fit: cover;
+  }
+}
+
+/* Breakpoint 4: min-width 190px and max-width 450px */
+@media (min-width: 190px) and (max-width: 450px) {
+  .checklists{
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+  }
+  .checklist-texts {
+    width: 70%;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding: 1rem;
+  }
+  .right-photo-section {
+    width: 100%;
+  }
+  .checklist-texts p{
+    font-size: 0.7rem;
+  }
+  .checklist-texts h1{
+    font-size: 1.5rem;
+  }
+  .checklist-texts h3{
+    font-size: 1.1rem;
+  }
+  .right-photo-section{
+    width: 100%;
+  }
+  .left-blank-section{
+    width: 0%;
+  }
+  .right-photo-section img{
+    width: 100vw;
+    height: 80vh;
+    object-fit: cover;
+  }
+  .checklist-lists li::after{
+    font-size: 0.6rem;
+  }
+  .checklist-lists li::before{
+    height: 0.8rem;
+    width: 0.8rem;
+    margin-right: 0px;
+  }
+  .checklist-lists li {
+    padding-left: 1rem;
+  }
 }

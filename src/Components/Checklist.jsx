@@ -12,16 +12,22 @@ const Checklist = () => {
           <section className="checklist-lists">
             <section className="left-list">
               <ul>
-                <li>Construct your own low-impact homes</li>
-                <li>Install solar panels for renewable energy</li>
-                <li>Use solar desalination plant for drinking water</li>
+                <li><p>
+                Construct your own low-impact homes
+                </p>
+                  </li>
+                <li> <p>
+                Install solar panels for renewable energy
+                </p>
+                  </li>
+                <li><p>Use solar desalination plant for drinking water</p></li>
               </ul>
             </section>
             <section className="right-list">
               <ul>  
-                <li>Use sustainable waste management systems</li>
-                <li>Plant new corals to preserve the reef</li>
-                <li>Establish a small recycling plant</li>
+                <li><p>Use sustainable waste management systems</p></li>
+                <li><p>Plant new corals to preserve the reef</p></li>
+                <li><p>Establish a small recycling plant</p></li>
               </ul>
             </section>
           </section>
