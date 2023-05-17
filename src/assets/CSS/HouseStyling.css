@@ -23,3 +23,87 @@
     color: grey;
     font-size: 1.2rem;
 }
+
+
+
+/* Media Queries */
+
+/* Breakpoint: 1249px */
+@media (max-width: 1249px) {
+    .house-styling {
+      flex-direction: column;
+    }
+  
+    .styling-image,
+    .styling-text {
+      padding: 2rem;
+    }
+  
+    .styling-image img {
+      padding: 2rem;
+      height: auto;
+      max-width: 100%;
+    }
+  }
+  
+  /* Breakpoint: 1024px */
+  @media (max-width: 1024px) {
+    .styling-image,
+    .styling-text {
+      padding: 1rem;
+    }
+  
+    .styling-text h2 {
+      font-size: 2rem;
+    }
+  
+    .styling-text p {
+      font-size: 1rem;
+    }
+  }
+  
+  /* Breakpoint: 740px */
+  @media (max-width: 740px) {
+    .styling-text h2 {
+      font-size: 1.8rem;
+    }
+  
+    .styling-text p {
+      font-size: 0.9rem;
+    }
+    .styling-image img {
+      padding: 0px;
+      height: auto;
+      margin: 0px;
+      max-width: 100%;
+    }
+  }
+  
+  /* Breakpoint: 450px */
+  @media (max-width: 450px) {
+    .styling-image,
+    .styling-text {
+      padding: 0.5rem;
+      margin-top: 1rem;
+    }
+  
+    .styling-text h2 {
+      font-size: 1.5rem;
+    }
+  
+    .styling-text p {
+      font-size: 0.8rem;
+    }
+  }
+  
+  /* Breakpoint: 190px */
+  @media (min-width: 190px) and (max-width: 450px) {
+    .styling-image img {
+      padding: 0.5rem;
+      height: auto;
+      max-width: 100%;
+    }
+    .styling-text {
+        margin-top: 0px;
+    }
+  }
