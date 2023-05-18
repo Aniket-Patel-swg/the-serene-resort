@@ -43,3 +43,131 @@
     margin: auto;
     margin: 0px 1rem;
 }
+
+
+
+
+/* Media Queries */
+
+/* Breakpoint: 1249px */
+@media (max-width: 1249px) {
+    .footer-elements {
+      padding: 6rem;
+    }
+    .footer-elements a {
+      margin-right: 1.5rem;
+      font-size: 1.1rem;
+    }
+    .privacy-policy a {
+      margin-right: 1rem;
+    }
+    #Cookies {
+      margin-left: 1rem;
+    }
+  }
+  
+  /* Breakpoint: 1024px */
+  @media (max-width: 1024px) {
+    .footer-elements {
+      padding: 4rem;
+      flex-direction: column;
+    }
+    .logo-section {
+      margin-bottom: 1rem;
+    }
+    .privacy-policy {
+      margin-top: 1.5rem;
+    }
+  }
+  
+  /* Breakpoint: 740px */
+  @media (max-width: 840px) {
+    .footer{
+        display: block;
+        padding: 1rem;
+    }
+    .footer-elements{
+        margin: 2rem 6rem;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        padding: 2rem;
+    }
+    .footer-contacts{
+        margin: 2rem 5.5rem;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+    }
+  }
+  
+  /* Breakpoint: 450px */
+  @media (max-width: 550px) {
+    .footer{
+        display: block;
+        padding: 1rem;
+    }
+    .footer-elements {
+      padding: 1.5rem;
+      margin: 2rem 1.2rem;
+    }
+    .footer-elements a {
+      margin-right: 0.5rem;
+      font-size: 0.9rem;
+    }
+    .privacy-policy a {
+      margin-right: 0.5rem;
+    }
+    #Cookies {
+      margin-left: 0.5rem;
+    }
+    .footer-contacts{
+        margin: 2rem 1.2rem;
+        padding: 1rem;
+    }
+    .footer-contacts p{
+        font-size: 1rem;
+        display: grid;
+        gap: 1rem;
+        margin-left: 1rem;
+    }
+    .footer-contacts h3{
+        font-size: 2rem;
+    }
+  }
+  
+  /* Breakpoint: 320px */
+  @media (max-width: 320px) {
+
+    .footer{
+        display: block;
+        padding: 1rem;
+    }
+    .footer-elements {
+      padding: 0.5rem;
+      margin: 1.3rem 1rem;
+    }
+    .footer-elements a {
+      margin-right: 0.5rem;
+      font-size: 0.9rem;
+    }
+    .privacy-policy a {
+      margin-right: 0.5rem;
+    }
+    #Cookies {
+      margin-left: 0.5rem;
+    }
+    .footer-contacts{
+        margin: 2rem 1.2rem;
+        padding: 1rem;
+    }
+    .footer-contacts p{
+        font-size: 1rem;
+        display: grid;
+        gap: 0.8rem;
+        margin-left: 0.1rem;
+    }
+    .footer-contacts h3{
+        font-size: 1.5rem;
+    }
+  }

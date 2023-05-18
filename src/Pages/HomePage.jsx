@@ -50,7 +50,7 @@ const HomePage = () => {
         <AboutUs />
         <Team />
         <FinalCallToAction />
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </>
   );
