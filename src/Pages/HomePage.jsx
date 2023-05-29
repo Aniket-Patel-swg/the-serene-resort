@@ -24,6 +24,19 @@ const HomePage = () => {
       behavior: "smooth",
     });
   };
+ const images = [
+    'https://example.com/image1.jpg',
+    'https://example.com/image2.jpg',
+    'https://example.com/image3.jpg',
+    // more images...
+  ];
+  
+  const descriptions = [
+    'Description for image 1',
+    'Description for image 2',
+    'Description for image 3',
+    // more descriptions...
+  ];
   return (
     <>
       <div className="home-page">
@@ -39,7 +52,7 @@ const HomePage = () => {
         </seciton>
         <HeroContainer />
         <Refrences />
-        <Carousel />
+        {/*<Carousel images={images} descriptions={descriptions} />*/}
         <Location />
         <Cards />
         <Checklist />

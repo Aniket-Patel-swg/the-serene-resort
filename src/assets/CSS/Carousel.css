@@ -1,4 +1,13 @@
-.caroussel-container{
-    padding: 3em;
-    background-color: rgb(237, 255, 249);
+.carousel {
+  display: flex;
+  align-items: center;
+}
+
+.image-info {
+  display: flex;
+  flex-direction: row;
+}
+
+.image-description {
+  margin-right: 20px;
 }
