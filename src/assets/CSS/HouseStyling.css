@@ -1,6 +1,7 @@
 .house-styling{
     display: flex;
     margin-top: 3rem;
+    align-items: center;
 }
 .styling-image{
     float: left;

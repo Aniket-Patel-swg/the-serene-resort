@@ -20,13 +20,13 @@
 
 .checklist-texts {
   position: absolute;
-  width: 40%;
+  width: 50%;
   background-color: white;
   border-radius: 0.4rem;
   padding: 2rem;
   box-shadow: 0px 15px 50px rgba(0, 0, 0, 0.2);
   margin-top: 5rem;
-  margin-left: 7rem;
+  margin-left: 2rem;
 }
 
 .checklist-texts h1 {

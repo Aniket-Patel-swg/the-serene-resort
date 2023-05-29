@@ -1,6 +1,7 @@
 .cards-section{
     background-color: #f1f1f1;
     padding-bottom: 2rem;
+    margin: 0;
 }
 .text-header {
     text-align: center;
@@ -15,7 +16,7 @@
     color: #595959;
 }
 .serene-cards{
-    margin: 10rem;
+    margin: 4rem;
     margin-top: 4rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -44,7 +45,7 @@
     margin-top: 1rem;
     font-size: 1.2rem;
     color: #707070;
-    text-align: justify;
+    text-align: left;
 }
 
 

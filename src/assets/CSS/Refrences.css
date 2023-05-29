@@ -24,7 +24,7 @@
     flex-wrap: wrap; /* Added property */
     margin: auto;
     column-gap: 2em;
-    width: 55%;
+    width: 60%;
     transition: max-width 2s ease-in-out;
   }
   
