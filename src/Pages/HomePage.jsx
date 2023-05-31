@@ -16,7 +16,7 @@ import ArrowDropUpIcon from "@mui/icons-material/ArrowDropUp";
 import '../assets/CSS/HomePage.css';
 import WhatsAppimg from '../assets/Images/Whatsapp-icon.png';
 import Footer from "../Components/Footer";
-
+import carousel1 from '../assets/Images/carousel1.jpg'
 const HomePage = () => {
   const handleClick = () => {
     window.scrollTo({
@@ -25,27 +25,27 @@ const HomePage = () => {
     });
   };
  const images = [
-    'https://fastly.picsum.photos/id/237/200/300.jpg?hmac=TmmQSbShHz9CdQm0NkEjx1Dyh_Y984R9LpNrpvH2D_U',
-    'https://fastly.picsum.photos/id/866/200/300.jpg?hmac=rcadCENKh4rD6MAp6V_ma-AyWv641M4iiOpe1RyFHeI',
-    'https://fastly.picsum.photos/id/1064/200/300.jpg?grayscale&hmac=aLRMn3dagvJ9N-yggNpG9lyEMRHqVqDLvTuRc8TeqIg',
+   'https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?auto=compress&cs=tinysrgb&w=600',
+    'https://images.pexels.com/photos/879010/pexels-photo-879010.jpeg?auto=compress&cs=tinysrgb&w=600',
+    'https://images.pexels.com/photos/338504/pexels-photo-338504.jpeg?auto=compress&cs=tinysrgb&w=600',
     // more images...
   ];
   
   const descriptions = [
     {
-      title : "title 1",
-        smalltitle : " Lorem ipsum dolor sit amet.",
-      description : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga nisi perspiciatis esse. Ab quae vel deserunt eum, dolorum accusantium quo?"
+      title : "The New Bali",
+        smalltitle : "Kerela Unique and Exclusive",
+        description : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga nisi perspiciatis esse. Ab quae vel deserunt eum, dolorum accusantium quo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates modi labore iste! Voluptas."
     },
     {
-      title : "title ",
-      smalltitle : " Lorem ipsum  amet.",
-      description : "Lorem, ipsum dolor sit amet . Fuga nisi perspiciatis esse. Ab quae vel deserunt eum, dolorum accusantium quo?"
+      title : "Western Comforts in South India",
+      smalltitle : "Enjoy Life at Safe Place",
+      description : "Lorem, ipsum dolor sit amet . Fuga nisi perspiciatis esse. Ab quae vel deserunt eum, dolorum accu santium quo? Lorem ipsum dolor sit amet consectetur adipisicing  modi labore iste! Voluptas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga nisi perspiciatis esse"
     },
     {
-      title : "title 1",
-      smalltitle : " Lorem ipsum dolor sit .",
-      description : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga nisi ,vel deserunt eum, dolorum accusantium quo?"
+      title : "Discover Serene",
+      smalltitle : "The only house you need",
+      description : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga nisi ,vel deserunt eum, dolorum accusantium quo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates modi labore iste! Voluptas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga nisi perspiciattas."
     }
     // more descriptions...
   ];
