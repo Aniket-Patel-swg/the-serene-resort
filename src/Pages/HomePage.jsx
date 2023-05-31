@@ -25,16 +25,28 @@ const HomePage = () => {
     });
   };
  const images = [
-    'https://example.com/image1.jpg',
-    'https://example.com/image2.jpg',
-    'https://example.com/image3.jpg',
+    'https://fastly.picsum.photos/id/237/200/300.jpg?hmac=TmmQSbShHz9CdQm0NkEjx1Dyh_Y984R9LpNrpvH2D_U',
+    'https://fastly.picsum.photos/id/866/200/300.jpg?hmac=rcadCENKh4rD6MAp6V_ma-AyWv641M4iiOpe1RyFHeI',
+    'https://fastly.picsum.photos/id/1064/200/300.jpg?grayscale&hmac=aLRMn3dagvJ9N-yggNpG9lyEMRHqVqDLvTuRc8TeqIg',
     // more images...
   ];
   
   const descriptions = [
-    'Description for image 1',
-    'Description for image 2',
-    'Description for image 3',
+    {
+      title : "title 1",
+        smalltitle : " Lorem ipsum dolor sit amet.",
+      description : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga nisi perspiciatis esse. Ab quae vel deserunt eum, dolorum accusantium quo?"
+    },
+    {
+      title : "title ",
+      smalltitle : " Lorem ipsum  amet.",
+      description : "Lorem, ipsum dolor sit amet . Fuga nisi perspiciatis esse. Ab quae vel deserunt eum, dolorum accusantium quo?"
+    },
+    {
+      title : "title 1",
+      smalltitle : " Lorem ipsum dolor sit .",
+      description : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga nisi ,vel deserunt eum, dolorum accusantium quo?"
+    }
     // more descriptions...
   ];
   return (
@@ -52,7 +64,7 @@ const HomePage = () => {
         </seciton>
         <HeroContainer />
         <Refrences />
-        {/*<Carousel images={images} descriptions={descriptions} />*/}
+        <Carousel images={images} descriptions={descriptions} />
         <Location />
         <Cards />
         <Checklist />

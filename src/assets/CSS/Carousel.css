@@ -1,13 +1,5 @@
 .carousel {
   display: flex;
   align-items: center;
-}
-
-.image-info {
-  display: flex;
-  flex-direction: row;
-}
-
-.image-description {
-  margin-right: 20px;
+  justify-content: space-around;
 }
