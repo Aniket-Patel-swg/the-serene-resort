@@ -1,7 +1,7 @@
 .investment-section{
     display: flex;
     flex-wrap: wrap;
-    background-color: #0A393A;
+    background-color: #94B682;
     padding-bottom: 4rem;
 }
 .investment-section h1{
@@ -70,7 +70,7 @@
 }
 .investment-card{
     width: 30%;
-    background-color: #3f5d5e;
+    background-color: #BD9171;
     padding: 0 2rem;
     height: 50vh;
     margin: auto;

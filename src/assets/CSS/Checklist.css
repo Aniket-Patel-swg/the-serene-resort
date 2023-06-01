@@ -1,6 +1,7 @@
 .checklists {
   display: flex;
   height: 100vh;
+  color: white;
 }
 
 .left-blank-section {
@@ -21,7 +22,7 @@
 .checklist-texts {
   position: absolute;
   width: 50%;
-  background-color: white;
+  background-color: #BD9171;
   border-radius: 0.4rem;
   padding: 2rem;
   box-shadow: 0px 15px 50px rgba(0, 0, 0, 0.2);
@@ -64,7 +65,7 @@
 
 .more-texts p {
   font-size: 1.3rem;
-  color: #6b6b6b;
+  color: white;
 }
 
 .checklist-lists li::before {
@@ -75,7 +76,6 @@
   width: 1em;
   height: 1em;
   border-radius: 50%;
-  background-color: #1fabad;
 }
 
 .checklist-lists li::after {

@@ -1,17 +1,16 @@
 .footer{
-    background-color: #0a393a;
+    background-color: #EDE3C9;
     display: flex;
-    color: white;
+    color: black;
 }
 .footer-elements{
     padding: 8rem 10rem;
 }
 .footer-elements a{
-    color: white;
+    color: black;
     text-decoration: none;
     margin-right: 2rem;
     font-size: 1.2rem;
-    color: rgb(232, 232, 232);
 }
 .logo-section{
     margin-bottom: 2rem;
@@ -26,7 +25,7 @@
     margin-left: 1.2rem;
 }
 .privacy-policy span{
-    color: white;
+    color: black;
 }
 .footer-contacts{
     margin-top: 8rem;
