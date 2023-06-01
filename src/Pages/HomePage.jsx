@@ -16,7 +16,7 @@ import ArrowDropUpIcon from "@mui/icons-material/ArrowDropUp";
 import '../assets/CSS/HomePage.css';
 import WhatsAppimg from '../assets/Images/Whatsapp-icon.png';
 import Footer from "../Components/Footer";
-import carousel1 from '../assets/Images/carousel1.jpg'
+
 const HomePage = () => {
   const handleClick = () => {
     window.scrollTo({

@@ -4,13 +4,14 @@
   justify-content: space-evenly;
   margin: 3rem;
 }
-.desctiption{
+.description{
   float: left;
   /* width: 50%; */
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  margin: 0px 6rem;
+  margin: 0px 3rem;
+  /* margin-right: 3rem; */
 }
 .carousel-heading{
   font-size: 3rem;
@@ -28,16 +29,73 @@
   float: right;
   /* width: 50%; */
 }
-.carousel-image{
-  width: 100%;
-  height: 100%;
-}
 .arrows-section{
-  padding: 1.5rem 0px;
-  font-size: 2rem;
+  padding: 1.5rem 0rem;
+  font-size: 3rem;
   font-weight: 100;
   color: #1FABAD;
 }
 .left-arrow{
   margin-right: 1rem;
 }
+
+@media (max-width : 1250px) {
+  .desctiption{
+    margin: 0px 2rem;
+  }
+  .image-section img{
+    max-width: 50vw;
+  }
+  .carousel-heading{
+    font-size: 2rem;
+  }
+  .carousel-small-heading{
+    font-size: 1.3rem;
+  }
+  .carousel-description{
+    font-size: 1rem;
+  }
+  .arrows-section{
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width : 925px) {
+  .carousel{
+    display: grid;
+  }
+  .image-section{
+    /* order: 1; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .description{
+    text-align: center;
+  }
+}
+
+@media (max-width : 925px) and (min-width : 425px) {
+  .description{
+    margin: 0px 1rem;
+  }
+}
+
+@media (max-width : 425px) {
+  .carousel{
+    margin: 1rem;
+  }
+  .carousel-heading{
+    font-size: 1.5rem;
+  }
+  .carousel-small-heading{
+    font-size: 1rem;
+  }
+  .carousel-description{
+    font-size: 1rem;
+  }
+  .arrows-section{
+    font-size: 2rem;
+  }
+}
+  
