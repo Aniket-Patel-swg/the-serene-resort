@@ -18,7 +18,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #298af848; /* greenish shade with 50% transparency */
+    background-color: #bd917173; /* greenish shade with 50% transparency */
   }
   
   .final-texts {
@@ -39,7 +39,7 @@
     font-size: 1.2rem;
     padding: 1rem 2rem;
     border: none;
-    background-color: #2988F8;
+    background-color: #94B682;
     color: white;
     cursor: pointer;
   }

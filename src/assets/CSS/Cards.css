@@ -23,7 +23,8 @@
     gap: 2rem;
 }
 .cards{
-    background-color: white;
+    background-color: #BD9171;
+    color: #EDE3C9;
     width: auto;
     padding: 2rem;
     border-radius: 0.4rem;
@@ -31,7 +32,7 @@
 }
 .card-img img{
     border-radius: 50%;
-    background-color: #E9F7F7;
+    background-color: #EDE3C9;
     padding: 1rem;
 }
 .general-text{
@@ -44,7 +45,7 @@
 .general-text p{
     margin-top: 1rem;
     font-size: 1.2rem;
-    color: #707070;
+    color: #EDE3C9;
     text-align: left;
 }
 
