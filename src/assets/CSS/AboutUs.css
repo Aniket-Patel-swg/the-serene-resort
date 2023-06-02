@@ -1,5 +1,5 @@
 .about-section{
-    background-color: #EDE3C9;
+    background-color: #edededca;
     padding-top: 4rem;
     padding-bottom: 5rem;
 }
@@ -35,7 +35,7 @@
 }
 .founder-section h6{
     font-size: 1.3rem;
-    color: grey;
+    color: #edededca;
     margin-top: 0.3rem;
 }
 .founder-section p{
