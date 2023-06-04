@@ -10,10 +10,12 @@
     padding: 4rem;
     object-fit: contain;
     height: 55vh;
+    max-width: 100%;
 }
 .styling-text {
-    padding: 4rem;
-    padding-left: 1rem;
+    padding: 2rem 6rem;
+    /* padding-left: 1rem; */
+    padding-right: 1.5rem;
     margin-top: 2rem;
 }
 .styling-text h2{
@@ -34,9 +36,11 @@
     .house-styling {
       flex-direction: column;
     }
-  
-    .styling-image,
-    .styling-text {
+    .styling-text{
+      padding: 4rem;
+      margin-top: 0px;
+    }
+    .styling-image {
       padding: 2rem;
     }
   
@@ -49,18 +53,21 @@
   
   /* Breakpoint: 1024px */
   @media (max-width: 1024px) {
-    .styling-image,
-    .styling-text {
+    .styling-image {
       padding: 1rem;
     }
   
     .styling-text h2 {
       font-size: 2rem;
     }
-  
+    .styling-text{
+      padding: 3rem;
+      margin-bottom: 0px;
+    }
     .styling-text p {
       font-size: 1rem;
     }
+    
   }
   
   /* Breakpoint: 740px */
@@ -68,7 +75,7 @@
     .styling-text h2 {
       font-size: 1.8rem;
     }
-  
+   
     .styling-text p {
       font-size: 0.9rem;
     }
