@@ -1,9 +1,10 @@
 .scroll-button {
   border-radius: 50%;
+  cursor: pointer;
 }
 .back-to-top-btn {
   position: fixed;
-  background-color: #94B682;
+  background-color: #708a62;
   right: 15px;
   top: 87%;
   z-index: 50;

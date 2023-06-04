@@ -13,8 +13,8 @@ import AboutUs from "../Components/AboutUs";
 import Team from "../Components/Team";
 import FinalCallToAction from "../Components/FinalCallToAction";
 import ArrowDropUpIcon from "@mui/icons-material/ArrowDropUp";
-import '../assets/CSS/HomePage.css';
-import WhatsAppimg from '../assets/Images/Whatsapp-icon.png';
+import "../assets/CSS/HomePage.css";
+import WhatsAppimg from "../assets/Images/Whatsapp-icon.png";
 import Footer from "../Components/Footer";
 
 const HomePage = () => {
@@ -24,29 +24,32 @@ const HomePage = () => {
       behavior: "smooth",
     });
   };
- const images = [
-   'https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?auto=compress&cs=tinysrgb&w=600',
-    'https://images.pexels.com/photos/879010/pexels-photo-879010.jpeg?auto=compress&cs=tinysrgb&w=600',
-    'https://images.pexels.com/photos/338504/pexels-photo-338504.jpeg?auto=compress&cs=tinysrgb&w=600',
+  const images = [
+    "https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "https://images.pexels.com/photos/879010/pexels-photo-879010.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "https://images.pexels.com/photos/338504/pexels-photo-338504.jpeg?auto=compress&cs=tinysrgb&w=600",
     // more images...
   ];
-  
+
   const descriptions = [
     {
-      title : "The New Bali",
-        smalltitle : "Kerela Unique and Exclusive",
-        description : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga nisi perspiciatis esse. Ab quae vel deserunt eum, dolorum accusantium quo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates modi labore iste! Voluptas."
+      title: "The New Bali",
+      smalltitle: "Kerela Unique and Exclusive",
+      description:
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga nisi perspiciatis esse. Ab quae vel deserunt eum, dolorum accusantium quo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates modi labore iste! Voluptas.",
     },
     {
-      title : "Western Comforts in South India",
-      smalltitle : "Enjoy Life at Safe Place",
-      description : "Lorem, ipsum dolor sit amet . Fuga nisi perspiciatis esse. Ab quae vel deserunt eum, dolorum accu santium quo? Lorem ipsum dolor sit amet consectetur adipisicing  modi labore iste! Voluptas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga nisi perspiciatis esse"
+      title: "Western Comforts in South India",
+      smalltitle: "Enjoy Life at Safe Place",
+      description:
+        "Lorem, ipsum dolor sit amet . Fuga nisi perspiciatis esse. Ab quae vel deserunt eum, dolorum accu santium quo? Lorem ipsum dolor sit amet consectetur adipisicing  modi labore iste! Voluptas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga nisi perspiciatis esse",
     },
     {
-      title : "Discover Serene",
-      smalltitle : "The only house you need",
-      description : "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga nisi ,vel deserunt eum, dolorum accusantium quo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates modi labore iste! Voluptas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga nisi perspiciattas."
-    }
+      title: "Discover Serene",
+      smalltitle: "The only house you need",
+      description:
+        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga nisi ,vel deserunt eum, dolorum accusantium quo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates modi labore iste! Voluptas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga nisi perspiciattas.",
+    },
     // more descriptions...
   ];
   return (
@@ -67,15 +70,23 @@ const HomePage = () => {
         <Carousel images={images} descriptions={descriptions} />
         <Location />
         <Cards />
-        <Checklist />
+        <section id="services">
+          <Checklist />
+        </section>
         <HouseStyling />
         <Amenities />
         <Investment />
         {/* <CallToAction /> */}
-        <AboutUs />
+        <secttion id="about">
+          <AboutUs />
+        </secttion>
         <Team />
-        <FinalCallToAction />
-        <Footer />
+        <section id="calltoaction">
+          <FinalCallToAction />
+        </section>
+        <section id="contact">
+          <Footer />
+        </section>
       </div>
     </>
   );
