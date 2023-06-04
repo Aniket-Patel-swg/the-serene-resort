@@ -58,7 +58,7 @@ const HomePage = () => {
           </div>
         </section>
         <seciton className="whatsapp-button">
-          <a href="https://wa.me/+1234567890" target="_BLANK">
+          <a href="https://wa.me/+7990154651" target="_BLANK">
             <img src={WhatsAppimg} alt="" />
           </a>
         </seciton>
