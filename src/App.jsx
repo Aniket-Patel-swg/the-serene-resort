@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Navbar from './Components/Navbar';
 import HomePage from './Pages/HomePage';
+import './font.css'
 
 function App() {
   return (

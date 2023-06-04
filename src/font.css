@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Kollketif';
+    src: url('./kollektif/kollketif-Bold.ttf') format('truetype'),
+         url('./kollektif/kollketif-BoldItalic.ttf') format('truetype'),
+         url('./kollektif/kollketif-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
