@@ -17,7 +17,7 @@ const HeroContainer = () => {
               Beach City.
             </p>
             <section className="button-section">
-              <a href="/">
+              <a href="https://wa.me/+7990154651" target="_blank">
               <button>
                 <p>Get More Info</p>
               </button>

@@ -32,7 +32,7 @@ class carousel extends Component {
   render() {
     return (
       <div className="carousel">
-         <div className="image-section">
+        <div className="image-section">
           <img src={this.props.images[this.state.currentImageIndex]} alt="" />
         </div>
         <div className="description">
@@ -46,15 +46,18 @@ class carousel extends Component {
             {this.props.descriptions[this.state.currentImageIndex].description}
           </p>
           <section className="arrows-section">
-            <FaArrowAltCircleLeft
-              className="left-arrow"
-              onClick={this.previousSlide}
-            />
-
-            <FaArrowAltCircleRight
-              className="right-arrow"
-              onClick={this.nextSlide}
-            />
+            <span>
+              <FaArrowAltCircleLeft
+                className="left-arrow"
+                onClick={this.previousSlide}
+              />
+            </span>
+            <span>
+              <FaArrowAltCircleRight
+                className="right-arrow"
+                onClick={this.nextSlide}
+              />
+            </span>
           </section>
         </div>
       </div>

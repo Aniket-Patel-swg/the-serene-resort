@@ -35,6 +35,9 @@
   font-weight: 100;
   color: #94B682;
 }
+.arrows-section span{
+  cursor: pointer;
+}
 .left-arrow{
   margin-right: 1rem;
 }
