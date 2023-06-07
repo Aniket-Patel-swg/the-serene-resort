@@ -16,6 +16,7 @@ const Navbar = ({ about, services, contact, cta }) => {
 
   const handleClick = () => {
     setShowMediaIcons(false);
+    setShowHamburger(false);
   };
 
   const scrollToHome = () => {
@@ -66,7 +67,7 @@ const Navbar = ({ about, services, contact, cta }) => {
           {showMediaIcons && (
             <>
               <section className="mobile-nav">
-                <a href="#" onClick={() => {scrollToHome();handleClick();}}>
+                <a href="#" onClick={() => {scrollToHome(); handleClick();}}>
                   Home
                 </a>
                 <a href={about} onClick={(e) => {smoothScroll(e, "#about"); handleClick();}}>

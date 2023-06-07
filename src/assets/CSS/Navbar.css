@@ -91,5 +91,6 @@ header .cta-button:hover {
         top: 85px;
         color: white;
         background-color: #bd9171;
+        width: 75vw;
     }
 }
