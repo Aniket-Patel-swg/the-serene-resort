@@ -7,7 +7,7 @@ import './font.css'
 function App() {
   return (
     <>
-    <Navbar about="#about" services="services" contact="contact" cta="calltoaction" /> 
+    <Navbar about="about" services="services" contact="contact" cta="calltoaction" /> 
      {/* Home page will contain all the components */}
      <HomePage />
     </>

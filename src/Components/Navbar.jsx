@@ -14,6 +14,10 @@ const Navbar = ({ about, services, contact, cta }) => {
     });
   };
 
+  const handleClick = () => {
+    setShowMediaIcons(false);
+  };
+
   const scrollToHome = () => {
     window.scrollTo({
       top: 0,
@@ -62,19 +66,19 @@ const Navbar = ({ about, services, contact, cta }) => {
           {showMediaIcons && (
             <>
               <section className="mobile-nav">
-                <a href="#" onClick={scrollToHome}>
+                <a href="#" onClick={() => {scrollToHome();handleClick();}}>
                   Home
                 </a>
-                <a href={about} onClick={(e) => smoothScroll(e, "#about")}>
+                <a href={about} onClick={(e) => {smoothScroll(e, "#about"); handleClick();}}>
                   About Us
                 </a>
                 <a
                   href={services}
-                  onClick={(e) => smoothScroll(e, "#services")}
+                  onClick={(e) => {smoothScroll(e, "#services"); handleClick();}}
                 >
                   Services
                 </a>
-                <a href={contact} onClick={(e) => smoothScroll(e, "#contact")}>
+                <a href={contact} onClick={(e) => {smoothScroll(e, "#contact"); handleClick();}}>
                   Contact
                 </a>
               </section>

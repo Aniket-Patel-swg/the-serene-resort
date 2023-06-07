@@ -89,5 +89,7 @@ header .cta-button:hover {
         position: absolute;
         right: 0px;
         top: 85px;
+        color: white;
+        background-color: #bd9171;
     }
 }
