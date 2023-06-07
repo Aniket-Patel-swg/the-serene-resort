@@ -8,7 +8,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* background-color: rgba( 255, 255, 255, 0.8 ); */
     background-color: #bd917185;
     backdrop-filter: blur(10px);
     padding-top: 1em;
@@ -71,7 +70,8 @@ header .cta-button:hover {
     display: none;
 }
 .mobile-nav{
-    display: none;
+    /* display: none; */
+    transform: translateX(100%);
 }
 @media (max-width : 930px) {
     .cta-button{
@@ -83,14 +83,42 @@ header .cta-button:hover {
     .hamburger-menu{
         display: block;
     }
+    .hamburger-menu a{
+        cursor: pointer;
+    }
     .mobile-nav{
         display: flex;
         flex-direction: column;
+        background-color: #bd9171;
+        backdrop-filter: blur(10px);
+        transform: translateX(0px);
+        transition: transform 0.5s ease-in-out;
         position: absolute;
         right: 0px;
         top: 85px;
+        width: 100vw
+    }
+    .mobile-nav a{
+        padding: 1rem;
+        margin: 1rem;
         color: white;
-        background-color: #bd9171;
-        width: 75vw;
+        text-decoration: none;
+        font-size: 1.3rem;
+        border-bottom: 1px #708A62 solid;
+    }
+    .mobile-nav a:nth-child(4){
+        border-bottom: none;
     }
 }
+
+@media (max-width: 600px) {
+    .mobile-nav a{
+        font-size: 1.1rem;
+        margin: 0.5rem;
+        width: 100vw;
+    }
+    .mobile-nav a:nth-child(4){
+        border-bottom: none;
+    }
+}
+
