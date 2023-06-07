@@ -19,6 +19,10 @@ const Navbar = ({ about, services, contact, cta }) => {
     setShowHamburger(false);
   };
 
+  const hamburgerClicked = () =>{
+    
+  }
+
   const scrollToHome = () => {
     window.scrollTo({
       top: 0,
@@ -56,7 +60,9 @@ const Navbar = ({ about, services, contact, cta }) => {
             Call to Action
           </a>
           <section className="hamburger-menu">
-            <a onClick={() => setShowMediaIcons(!showMediaIcons)}>
+            <a onClick={() => {setShowMediaIcons(!showMediaIcons); }}
+            
+            >
               {showHamburger ? (
                 <IoMdClose onClick={() => setShowHamburger(false)} />
               ) : (
@@ -66,7 +72,10 @@ const Navbar = ({ about, services, contact, cta }) => {
           </section>
           {showMediaIcons && (
             <>
-              <section className="mobile-nav">
+              <section className="mobile-nav"
+              
+              style={{transform : showMediaIcons ? "translateX(0)" : "translateX(100%)"}}
+              >
                 <a href="#" onClick={() => {scrollToHome(); handleClick();}}>
                   Home
                 </a>
