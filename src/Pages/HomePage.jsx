@@ -60,11 +60,11 @@ const HomePage = () => {
             <ArrowDropUpIcon fontSize="large" />
           </div>
         </section>
-        <seciton className="whatsapp-button">
+        <section className="whatsapp-button">
           <a href="https://wa.me/+7990154651" target="_BLANK">
             <img src={WhatsAppimg} alt="" />
           </a>
-        </seciton>
+        </section>
         <HeroContainer />
         <Refrences />
         <Carousel images={images} descriptions={descriptions} />
@@ -77,9 +77,9 @@ const HomePage = () => {
         <Amenities />
         <Investment />
         {/* <CallToAction /> */}
-        <secttion id="about">
+        <section id="about">
           <AboutUs />
-        </secttion>
+        </section>
         <Team />
         <section id="calltoaction">
           <FinalCallToAction />
