@@ -1,8 +1,8 @@
 @font-face {
-    font-family: 'Kollketif';
-    src: url('./kollektif/kollketif-Bold.ttf') format('truetype'),
-         url('./kollektif/kollketif-BoldItalic.ttf') format('truetype'),
-         url('./kollektif/kollketif-Italic.ttf') format('truetype');
+    font-family: 'Kollektif';
+    src: url('./kollektif/kollektif-Bold.ttf') format('truetype'),
+         url('./kollektif/kollektif-BoldItalic.ttf') format('truetype'),
+         url('./kollektif/kollektif-Italic.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
   }
