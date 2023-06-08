@@ -74,6 +74,7 @@
     font-size: 0.9em;
   }
 }
+
 @media (max-width: 1024px) {
   .Main-section {
     margin-bottom: 0px;
@@ -91,6 +92,7 @@
   }
   .button-section button {
     width: 40%;
+    font-size: 1rem;
   }
 }
 @media (min-width: 450px) and (max-width: 800px) {
@@ -133,6 +135,9 @@
   }
   .basic-info-text {
     min-width: 100%;
+  }
+  .button-section button{
+    font-size: 1.1rem;
   }
 }
 

@@ -4,6 +4,7 @@ import { FaBars } from "react-icons/fa";
 import {IoMdClose} from "react-icons/io"
 
 const Navbar = ({ about, services, contact, cta }) => {
+  
   const [showMediaIcons, setShowMediaIcons] = useState(false);
   const [showHamburger, setShowHamburger] = useState(false);
 
@@ -18,11 +19,7 @@ const Navbar = ({ about, services, contact, cta }) => {
     setShowMediaIcons(false);
     setShowHamburger(false);
   };
-
-  const hamburgerClicked = () =>{
-    
-  }
-
+ 
   const scrollToHome = () => {
     window.scrollTo({
       top: 0,

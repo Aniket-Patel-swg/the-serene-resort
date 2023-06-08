@@ -16,6 +16,7 @@ import ArrowDropUpIcon from "@mui/icons-material/ArrowDropUp";
 import "../assets/CSS/HomePage.css";
 import WhatsAppimg from "../assets/Images/Whatsapp-icon.png";
 import Footer from "../Components/Footer";
+import AlternateCarousel from "../Components/Alternate_Carousel";
 
 const HomePage = () => {
   const handleClick = () => {
@@ -52,6 +53,7 @@ const HomePage = () => {
     },
     // more descriptions...
   ];
+  
   return (
     <>
       <div className="home-page">
@@ -61,13 +63,15 @@ const HomePage = () => {
           </div>
         </section>
         <section className="whatsapp-button">
-          <a href="https://wa.me/+7990154651" target="_BLANK">
+          <a href="https://wa.me/+7990154651
+          " target="_BLANK">
             <img src={WhatsAppimg} alt="" />
           </a>
         </section>
         <HeroContainer />
         <Refrences />
-        <Carousel images={images} descriptions={descriptions} />
+        {/* <Carousel images={images} descriptions={descriptions} /> */}
+        <AlternateCarousel />
         <Location />
         <Cards />
         <section id="services">
