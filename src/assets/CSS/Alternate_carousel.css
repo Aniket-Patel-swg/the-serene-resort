@@ -42,6 +42,35 @@
   overflow: hidden;
 }
 .small_title_wrapper{
-  
   transition: transform 0.5s ease-in-out;
+}
+.description_section{
+  overflow: hidden;
+  margin-top: 1rem;
+}
+.description_wrapper{
+  display: flex;
+  flex-direction: column-reverse;
+  transition: transform 0.5s ease-in-out;
+}
+.description{
+  font-size: 1.2rem;
+  margin: 0.5rem 3rem;
+}
+.buttons_section{
+  margin-left: 3rem;
+  margin-top: 1rem;
+  display: flex;
+}
+.buttons_section p{
+  font-size: 2.3rem;
+  cursor: pointer;
+  color: #bd9171;
+  transition: color 0.3s ease-in-out;
+}
+.buttons_section p:hover{
+  color: #708A62;
+}
+.buttons_section p:nth-child(2){
+  margin-left: 1rem;
 }
