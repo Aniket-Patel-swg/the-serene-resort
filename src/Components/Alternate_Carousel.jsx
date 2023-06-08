@@ -2,18 +2,10 @@ import React, { useState } from "react";
 import "../assets/CSS/Alternate_Carousel.css";
 
 const AlternateCarousel = () => {
+
   const [activeIndex, setActiveIndex] = useState(0);
-
-  function handleLeftButtonClick() {
-    const newIndex = (activeIndex - 1 + carousel.length) % carousel.length;
-    setActiveIndex(newIndex);
-  }
-
-  function handleRightButtonClick() {
-    const newIndex = (activeIndex + 1) % carousel.length;
-    setActiveIndex(newIndex);
-    console.log(newIndex);
-  }
+  const itemHeight = 6;
+  const smallTitleHeight = 4;
 
   const carousel = [
     {
@@ -43,6 +35,17 @@ const AlternateCarousel = () => {
     // more descriptions...
   ];
 
+  function handleLeftButtonClick() {
+    const newIndex = (activeIndex - 1 + carousel.length) % carousel.length;
+    setActiveIndex(newIndex);
+  }
+
+  function handleRightButtonClick() {
+    const newIndex = (activeIndex + 1) % carousel.length;
+    setActiveIndex(newIndex);
+    console.log(newIndex);
+  }
+
   return (
     <>
       <div className="carousel_2">
@@ -61,19 +64,46 @@ const AlternateCarousel = () => {
           </div>
         </div>
         <div className="text_section">
-          <div className="text_wrapper">
-            {carousel.map((item)=>{
-              return(
-                <>
-                    <p>
-                      {item.title}
-                    </p>
-                </>
-              )
-            })}
+            <section className="title_section">
+              <div
+                className="title_wrapper"
+                style={{
+                  transform: `translateY(-${activeIndex * 100}%)`,
+                  height: `${itemHeight}vh`,
+                }}
+              >
+                {carousel.map((item) => {
+                  return (
+                    <>
+                        <h1 className="title">{item.title}</h1>
+                    </>
+                  );
+                })}
+              </div>
+            </section>
+            <section className="small_title_section">
+              <div className="small_title_wrapper"
+              style={{
+                transform : `translateY(-${activeIndex * 100}%)`,
+                height : `${smallTitleHeight}vh`,
+              }}
+              >
+                {carousel.map((item)=>{
+                  return(
+                    <>
+                      <h2 className="small_title">
+                        {item.smalltitle}
+                      </h2>
+                    </>
+                  )
+                })}
+              </div>
+            </section>
+            <section className="description_section">
+              
+            </section>
             <button onClick={handleLeftButtonClick}>Left</button>
             <button onClick={handleRightButtonClick}>Right</button>
-          </div>
         </div>
       </div>
     </>
