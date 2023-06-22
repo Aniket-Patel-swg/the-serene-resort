@@ -70,8 +70,8 @@ const HomePage = () => {
         </section>
         <HeroContainer />
         <Refrences />
-        {/* <Carousel images={images} descriptions={descriptions} /> */}
-        <AlternateCarousel />
+        <Carousel images={images} descriptions={descriptions} />
+        {/* <AlternateCarousel /> */}
         <Location />
         <Cards />
         <section id="services">
