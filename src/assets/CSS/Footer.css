@@ -1,5 +1,5 @@
 .footer{
-    background-color: #94b682;
+    background-color: #EDE3C9;
     display: flex;
     color: black;
 }
@@ -14,6 +14,13 @@
 }
 .logo-section{
     margin-bottom: 2rem;
+    margin-left: 2rem;
+}
+.logo-section img{
+  /* width: 250px; */
+  height: 150px;
+  object-fit: contain;
+  transform: scale(2);
 }
 .privacy-policy{
     margin-top: 2.3rem;

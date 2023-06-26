@@ -1,6 +1,6 @@
 import React from "react";
 import "../assets/CSS/Footer.css";
-import logo from "../assets/Images/Logo.png";
+import logo from "../assets/Images/final_logo.png";
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 import EmailIcon from '@mui/icons-material/Email';
 import ContactsIcon from '@mui/icons-material/Contacts';

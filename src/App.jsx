@@ -1,17 +1,40 @@
-import React from 'react';
-import './App.css';
-import Navbar from './Components/Navbar';
-import HomePage from './Pages/HomePage';
-import './font.css'
+import React, { useState } from "react";
+import "./App.css";
+import Navbar from "./Components/Navbar";
+import HomePage from "./Pages/HomePage";
+import "./font.css";
+import DummyLogin from "./Components/dummyLogin";
 
 function App() {
+  const [loggedIn, setLoggedIn] = useState(false);
+
+  const handleLogin = (password) => {
+    if (password === "!Production@serene") {
+      setLoggedIn(true);
+    }
+    else{
+      alert('password is not correct')
+    }
+  };
+
   return (
     <>
-    <Navbar about="about" services="services" contact="contact" cta="calltoaction" /> 
-     {/* Home page will contain all the components */}
-     <HomePage />
+      {loggedIn ? (
+        <div className="main_div">
+          <Navbar
+            about="about"
+            services="services"
+            contact="contact"
+            cta="calltoaction"
+          />
+          {/* Home page will contain all the components */}
+          <HomePage />
+        </div>
+      ) : (
+        <DummyLogin handleLogin={handleLogin} />
+      )}
     </>
-  )
+  );
 }
 
-export default App
+export default App;

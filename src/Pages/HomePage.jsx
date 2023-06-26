@@ -3,7 +3,6 @@ import HeroContainer from "../Components/HeroContainer";
 import Refrences from "../Components/Refrences";
 import Carousel from "../Components/Carousel";
 import Location from "../Components/Location";
-import CallToAction from "../Components/CallToAction";
 import Cards from "../Components/Cards";
 import Checklist from "../Components/Checklist";
 import HouseStyling from "../Components/HouseStyling";
@@ -57,6 +56,8 @@ const HomePage = () => {
   return (
     <>
       <div className="home-page">
+
+        <div className="fixed_controls">
         <section className="scroll-button">
           <div className="back-to-top-btn" onClick={handleClick}>
             <ArrowDropUpIcon fontSize="large" />
@@ -68,6 +69,7 @@ const HomePage = () => {
             <img src={WhatsAppimg} alt="" />
           </a>
         </section>
+        </div>
         <HeroContainer />
         <Refrences />
         <Carousel images={images} descriptions={descriptions} />
@@ -77,7 +79,7 @@ const HomePage = () => {
         <section id="services">
           <Checklist />
         </section>
-        <HouseStyling />
+        {/* <HouseStyling /> */}
         <Amenities />
         <Investment />
         {/* <CallToAction /> */}

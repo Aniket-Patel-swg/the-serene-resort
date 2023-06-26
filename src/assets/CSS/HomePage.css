@@ -6,7 +6,8 @@
   position: fixed;
   background-color: #708a62;
   right: 15px;
-  top: 87%;
+  top: 88%;
+  /* left: 92%; */
   z-index: 50;
   width: 40px;
   height: 40px;
@@ -25,4 +26,15 @@
   border-radius: 50%;
   height: 80px;
   width: 80px;
+}
+
+@media (max-width: 500px) {
+  .back-to-top-btn{
+      height: 30px;
+      width: 30px;
+  }
+  .whatsapp-button img{
+    height: 60px;
+    width: 60px;
+  }
 }

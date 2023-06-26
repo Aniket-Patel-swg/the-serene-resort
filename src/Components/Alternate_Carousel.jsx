@@ -4,6 +4,10 @@ import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from "react-icons/fa";
 
 const AlternateCarousel = () => {
   const [activeIndex, setActiveIndex] = useState(0);
+  // const itemHeight = 6;
+  // const smallTitleHeight = 4;
+  // const descriptionHeight = 13.5;
+
   const itemHeight = 6;
   const smallTitleHeight = 4;
   const descriptionHeight = 13.5;

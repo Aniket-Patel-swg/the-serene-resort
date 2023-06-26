@@ -17,10 +17,13 @@ header {
 }
 
 header img {
-    width:220px;
-    height: 37px;
+    width:250px;
+    height: 60px;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
+    object-fit: contain;
+    transform: scale(3);
+    z-index: 1;
 }
 
 /* Navigation */
@@ -40,6 +43,7 @@ nav a {
     color: white;
     text-decoration: none;
     margin-right: 3em;
+    z-index: 5;
 }
 
 nav a:first-child{

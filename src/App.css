@@ -6,6 +6,9 @@
     font-family: 'Kollketif';
 }
 body{
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     background-color: #EDE3C9;
+}
+.main_div{
+    overflow-x: hidden;
 }

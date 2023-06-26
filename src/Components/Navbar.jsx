@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import "../assets/css/Navbar.css";
 import { FaBars } from "react-icons/fa";
-import {IoMdClose} from "react-icons/io"
+import {IoMdClose} from "react-icons/io";
+import logo from '../assets/Images/final_logo.png'
 
 const Navbar = ({ about, services, contact, cta }) => {
   
@@ -32,8 +33,8 @@ const Navbar = ({ about, services, contact, cta }) => {
       <div className="nav-container">
         <header sticky="top">
           <img
-            src="https://www.ecobeachcity.com/wp-content/uploads/2022/09/Logo-new.png"
-            alt="Eco Beach City Logo"
+            src={logo}
+            alt="The serene resort Logo"
           />
           <nav>
             <a href="#" onClick={scrollToHome}>
