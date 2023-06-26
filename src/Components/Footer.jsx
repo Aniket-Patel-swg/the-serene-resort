@@ -16,7 +16,7 @@ const Footer = () => {
             </section>
             <span className="links-section">
               <a href="/">The Island</a>
-              <a href="/">Eco City</a>
+              <a href="/">Serene</a>
               <a href="/">Investment</a>
               <a href="/">How It works</a>
               <a href="/">Blog</a>
@@ -43,7 +43,7 @@ const Footer = () => {
                 <span>
                     <LocationOnIcon />
                 </span>
-                Eco Beach City
+               The Serene
             </p>
         </div>
             
