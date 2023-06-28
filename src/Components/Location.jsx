@@ -14,14 +14,10 @@ const Location = () => {
             <section className="location-data">
               <h1>Where is Serene?</h1>
               <p>
-                Sumba is located in Indonesia, just an hour’s flight from Bali
-                and Lombok. This exotic island has two airports. The closest to
-                our city, Tambolaka, is only 35 km away. <br />
+              Serene Resorts is located in Wayanad, Kerala. Wayanad is a scenic and picturesque district located in the state of Kerala, India. Nestled amidst the lush Western Ghats, Wayanad is known for its abundant natural beauty, rich biodiversity, and vibrant culture. It is a popular destination for nature lovers, adventure enthusiasts, and those seeking a tranquil retreat. <br />
                 <br />
-                 Sumba provides a rare
-                sense of discovery, where ancient tribal culture and unspoiled
-                natural beauty form a backdrop to an experience of unregulated
-                freedom, understated luxury, and unforgettable memories.
+                The region is characterized by rolling hills, dense forests, cascading waterfalls, and sprawling tea and coffee plantations. It is home to several wildlife sanctuaries and reserves, including the Wayanad Wildlife Sanctuary, where visitors can spot various species of flora and fauna, including elephants, tigers, leopards, and deer. 
+
               </p>
             </section>
           </div>

@@ -33,22 +33,22 @@ const HomePage = () => {
 
   const descriptions = [
     {
-      title: "The New Bali",
-      smalltitle: "Kerela Unique and Exclusive",
+      title: "Bali Reinvented in Kerela",
+      smalltitle: "SERENE RESORT - UNIQUE AND EXCLUSIVE TO GODS OWN COUNTRY",
       description:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga nisi perspiciatis esse. Ab quae vel deserunt eum, dolorum accusantium quo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates modi labore iste! Voluptas.",
+        " Our resort offers a unique and diverse vacation experience with a range of accommodations and amenities to cater to every traveller's needs. From luxurious spa treatments to exhilarating outdoor activities, our resort provides a one-stop destination for relaxation, adventure, and entertainment. Guests can indulge in world-class dining, take a dip in our pristine pools, or explore the local culture through curated experiences. With something for everyone, our multi-concept resort promises to deliver an unforgettable vacation experience.",
     },
     {
       title: "Western Comforts in South India",
       smalltitle: "Enjoy Life at Safe Place",
       description:
-        "Lorem, ipsum dolor sit amet . Fuga nisi perspiciatis esse. Ab quae vel deserunt eum, dolorum accu santium quo? Lorem ipsum dolor sit amet consectetur adipisicing  modi labore iste! Voluptas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga nisi perspiciatis esse",
+        " Enjoy a range of stays such as Geodesic Domes, Glamping experiences, Pipe Hotels  airplane Stays and many more! Our on-site amenities such as multiple pools, a full-service spa, a fitness center, and several dining options. Located in a beautiful and tranquil setting, our resort is the perfect destination to relax, unwind, and create unforgettable memories.",
     },
     {
       title: "Discover Serene",
-      smalltitle: "The only house you need",
+      smalltitle: "A PLACE TO REWIND ",
       description:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga nisi ,vel deserunt eum, dolorum accusantium quo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates modi labore iste! Voluptas. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga nisi perspiciattas.",
+        "Our multi-concept resort is committed to providing our guests with an unforgettable and immersive experience that caters to their every need. Our mission is to create a welcoming environment that promotes relaxation, rejuvenation, and adventure, all while offering a range of amenities and activities that cater to a diverse range of interests. We aim to exceed our guests' expectations by providing exceptional customer service, luxurious accommodations, and a variety of dining options that showcase the best of local and international cuisine.",
     },
     // more descriptions...
   ];

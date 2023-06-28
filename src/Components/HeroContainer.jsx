@@ -9,12 +9,10 @@ const HeroContainer = () => {
         <div className="Main-section">
           <div className="main-texts">
             <p className="tagline">
-              Dream Homes in  Paradise from  €65,000
+              Dream Homes in <br /> Paradise
             </p>
             <p className="basic-info-text">
-              Discover the paradise island of Sumba, Indonesia, located just one
-              hour away from Bali, and become a citizen and investor of Eco
-              Beach City.
+            Discover the paradise known as Wayanad located in Kerala, and become a citizen and investor of Serene Resort. 
             </p>
             <section className="button-section">
               <a href="https://wa.me/+7990154651" target="_blank">

@@ -6,7 +6,7 @@ import "./font.css";
 import DummyLogin from "./Components/dummyLogin";
 
 function App() {
-  const [loggedIn, setLoggedIn] = useState(false);
+  const [loggedIn, setLoggedIn] = useState(true);
 
   const handleLogin = (password) => {
     if (password === "1Production@serene") {
