@@ -37,6 +37,10 @@
 .footer-contacts{
     margin-top: 8rem;
 }
+.footer-contacts a{
+  color: black;
+  text-decoration: none;
+}
 .footer-contacts h3{
     font-size: 2rem;
 }

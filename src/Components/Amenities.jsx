@@ -8,17 +8,15 @@ const Aminities = () => {
   return (
     <>
       <div className="aminities-section">
+        <h1>Exclusive Amenities</h1>
         <div className="aminities-cards">
           {aminitiesData.map((aminitieData) => {
             return (
               <>
                 <section className="aminities-card">
-                  <img
-                    src={aminitieData.image}
-                    alt=""
-                  />
+                  <img src={aminitieData.image} alt={aminitieData.alt} />
                   <p>
-                   {aminitieData.description}
+                   {aminitieData.alt}
                   </p>
                 </section>
               </>

@@ -1,6 +1,6 @@
 .aminities-section{
-    margin-top: 1rem;
-    margin-left: 3rem;
+    margin-top: 5rem;
+    margin-left: 1rem;
     margin-bottom: 4rem;
 }
 .aminities-cards{
@@ -12,16 +12,22 @@
     width: 20%;
     margin-top: 1rem;
     position: relative;
+    text-align: center;
 }
-.aminities-card p {
+/* .aminities-card p {
     width: 75%;
-    font: 500;
-    color: gray;
-    margin-top: 1rem;
-    font-size: 1.2rem;
-    text-align: left;
+    color: black;
+    margin-left: 0px;
+} */
+.aminities-card img{
+  filter: saturate(1.5);
+  max-width: 250px;
 }
-
+.aminities-section h1{
+  font-size: 3.2rem;
+  color: #BD9171;
+  margin-left: 3rem;
+}
 
 /* Media Queries */
 
@@ -37,13 +43,16 @@
     }
   }
   
-  @media (min-width: 450px) and (max-width: 740px) {
+  @media (min-width: 545px) and (max-width: 740px) {
     .aminities-card {
       width: 50%;
     }
+    .aminities-section{
+      text-align: center;
+    }
   }
   
-  @media (min-width: 190px) and (max-width: 450px) {
+  @media (min-width: 190px) and (max-width: 545px) {
     .aminities-card {
       width: 100%;
       margin-left: 0;
@@ -51,5 +60,6 @@
   
     .aminities-section {
       margin: 2rem;
+      text-align: center;
     }
   }

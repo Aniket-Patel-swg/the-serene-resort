@@ -1,9 +1,9 @@
 import React from "react";
 import "../assets/CSS/Footer.css";
 import logo from "../assets/Images/final_logo.png";
-import LocationOnIcon from '@mui/icons-material/LocationOn';
-import EmailIcon from '@mui/icons-material/Email';
-import ContactsIcon from '@mui/icons-material/Contacts';
+import LocationOnIcon from "@mui/icons-material/LocationOn";
+import EmailIcon from "@mui/icons-material/Email";
+import ContactsIcon from "@mui/icons-material/Contacts";
 
 const Footer = () => {
   return (
@@ -29,24 +29,30 @@ const Footer = () => {
             </section>
           </section>
         </div>
-        <div className="footer-contacts">   
-            <h3>Contact</h3>
-            <p>
-                <span><EmailIcon /></span>
-                contact@sereneresort.com
-            </p>
-            <p>
-                <span><ContactsIcon /></span>
-                +91 123456789
-            </p>
-            <p>
-                <span>
-                    <LocationOnIcon />
-                </span>
-               The Serene
-            </p>
+        <div className="footer-contacts">
+          <h3>Contact</h3>
+          <p>
+            <span>
+              <EmailIcon />
+            </span>
+            <a href="mailto://contact@sereneresort.com">
+              contact@sereneresort.com
+            </a>
+          </p>
+          <p>
+            <span>
+              <ContactsIcon />
+            </span>
+            <a href="tel:+917990154651">
+            +91 7990154651</a>
+          </p>
+          <p>
+            <span>
+              <LocationOnIcon />
+            </span>
+            The Serene
+          </p>
         </div>
-            
       </div>
     </>
   );

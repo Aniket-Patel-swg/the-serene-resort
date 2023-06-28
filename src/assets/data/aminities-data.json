@@ -1,22 +1,62 @@
 [
     {
-        "image" : "https://www.ecobeachcity.com/wp-content/uploads/2022/09/mdi_pool.svg",
-        "description" : "2 Beach Clubs, one with an adult-only pool and another with a Pool for families.​"
+        "image" : "https://f005.backblazeb2.com/file/serene-resort-images/Swimming_pool.png",
+        "alt" : "Swimming Pool​"
     },
     {
-        "image" : "https://www.ecobeachcity.com/wp-content/uploads/2022/09/map_gym.svg",
-        "description" : "A Gym & Sports Club with both tennis, and basketball courts and an area for playing football."
+        "image" : "https://f005.backblazeb2.com/file/serene-resort-images/Spa_png.png",
+        "alt" : "Spa"
     },
     {
-        "image" : "https://www.ecobeachcity.com/wp-content/uploads/2022/09/ri_hotel-fill.svg",
-        "description" : "Co-working space, school, 5 star spa & events room for multiple uses such as talks and parties."
+        "image" : "https://f005.backblazeb2.com/file/serene-resort-images/Sauna_png.png",
+        "alt" : "Sauna"
     },
     {
-        "image" : "https://www.ecobeachcity.com/wp-content/uploads/2022/09/ic_sharp-restaurant-menu.svg",
-        "description" : "Restaurants offer Mediterranean, vegan, and vegetarian menus, including delicious local dishes."
+        "image" : "https://f005.backblazeb2.com/file/serene-resort-images/Retaurant_png.png",
+        "alt" : "Restuarant"
     },
     {
-        "image" : "https://www.ecobeachcity.com/wp-content/uploads/2022/09/building-storefront-1.svg",
-        "description" : "An onsite supermarket, laundry, selection of eco shops and more!"
+        "image" : "https://f005.backblazeb2.com/file/serene-resort-images/Movie_screening_room.png",
+        "alt" : "Movie Screening Room"
+    },
+    {
+        "image" : "https://f005.backblazeb2.com/file/serene-resort-images/Library_png.png",
+        "alt" : "Library"
+    },
+    {
+        "image" : "https://f005.backblazeb2.com/file/serene-resort-images/Horse_riding.png",
+        "alt" : "Horseriding"
+    },
+    {
+        "image" : "https://f005.backblazeb2.com/file/serene-resort-images/Heated_swimming.png",
+        "alt" : "Heated Swimming Pool"
+    },
+    {
+        "image" : "https://f005.backblazeb2.com/file/serene-resort-images/Heated_jacuzzi.png",
+        "alt" : "Heated Jacuzzi"
+    },
+    {
+        "image" : "https://f005.backblazeb2.com/file/serene-resort-images/Fruit_garden.png",
+        "alt" : "Fruit Garden"
+    },
+    {
+        "image" : "https://f005.backblazeb2.com/file/serene-resort-images/First_AID.png",
+        "alt" : "First Aid"
+    },
+    {
+        "image" : "https://f005.backblazeb2.com/file/serene-resort-images/Event_venue.png",
+        "alt" : "Event Venue"
+    },
+    {
+        "image" : "https://f005.backblazeb2.com/file/serene-resort-images/Bikes.png",
+        "alt" : "Bikes"
+    },
+    {
+        "image": "https://f005.backblazeb2.com/file/serene-resort-images/Ampitheatre_png.png",
+        "alt" : "Ampitheatres"
+    },
+    {
+        "image" : "https://f005.backblazeb2.com/file/serene-resort-images/ATM_PNG.png",
+        "alt" : "ATM"
     }
 ]
