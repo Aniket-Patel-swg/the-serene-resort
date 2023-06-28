@@ -10,8 +10,8 @@ const Cards = () => {
         <section className="text-header">
           <h1>Why Serene?</h1>
           <p>
-            Here are some great reasons to make Sumba your next home or
-            investment
+          Serene Resort offers unique accommodations and plenty of amenities and facilities to cater to everyone. Our amenities can relax, rejuvenate and reignite the spirit of everyone planning on staying at this place. 
+
           </p>
         </section>
         <div className="serene-cards">
