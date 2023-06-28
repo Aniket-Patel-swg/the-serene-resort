@@ -9,7 +9,7 @@ const Cards = () => {
       <div className="cards-section">
         <section className="text-header">
           <h1>Why Serene?</h1>
-          <p>
+          <p className="reason-text">
           Serene Resort offers unique accommodations and plenty of amenities and facilities to cater to everyone. Our amenities can relax, rejuvenate and reignite the spirit of everyone planning on staying at this place. 
 
           </p>
